@@ -1,0 +1,1451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231A26BF191B1E6900DACEB1 /* ord_bg_cus_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B0191B1E6900DACEB1 /* ord_bg_cus_right.jpg */; };
+		231A26C0191B1E6900DACEB1 /* ord_bg_cus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B1191B1E6900DACEB1 /* ord_bg_cus.jpg */; };
+		231A26C1191B1E6900DACEB1 /* ord_cat_default_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B2191B1E6900DACEB1 /* ord_cat_default_selected.png */; };
+		231A26C2191B1E6900DACEB1 /* ord_cat_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B3191B1E6900DACEB1 /* ord_cat_default.png */; };
+		231A26C3191B1E6900DACEB1 /* ord_explore_click.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B4191B1E6900DACEB1 /* ord_explore_click.png */; };
+		231A26C4191B1E6900DACEB1 /* ord_explore.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B5191B1E6900DACEB1 /* ord_explore.png */; };
+		231A26C5191B1E6900DACEB1 /* ord_header_ordenamento.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B6191B1E6900DACEB1 /* ord_header_ordenamento.png */; };
+		231A26C6191B1E6900DACEB1 /* ord_perto_de_mim_click.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B7191B1E6900DACEB1 /* ord_perto_de_mim_click.png */; };
+		231A26C7191B1E6900DACEB1 /* ord_perto_de_mim.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B8191B1E6900DACEB1 /* ord_perto_de_mim.png */; };
+		231A26C8191B1E6900DACEB1 /* ord_portugal_click.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26B9191B1E6900DACEB1 /* ord_portugal_click.png */; };
+		231A26C9191B1E6900DACEB1 /* ord_portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A26BA191B1E6900DACEB1 /* ord_portugal.png */; };
+		231A26CA191B1E6900DACEB1 /* ord_bg_crus_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231A26BB191B1E6900DACEB1 /* ord_bg_crus_right.jpg */; };
+		231A26CB191B1E6900DACEB1 /* ord_bg_home_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231A26BC191B1E6900DACEB1 /* ord_bg_home_right.jpg */; };
+		231A26CC191B1E6900DACEB1 /* ord_bg_home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231A26BD191B1E6900DACEB1 /* ord_bg_home.jpg */; };
+		231A26CD191B1E6900DACEB1 /* ord_bg_crus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231A26BE191B1E6900DACEB1 /* ord_bg_crus.jpg */; };
+		23A3717A191B26DD006FDA70 /* mapa_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A37177191B26DD006FDA70 /* mapa_click@2x.png */; };
+		23A3717B191B26DD006FDA70 /* mapa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A37178191B26DD006FDA70 /* mapa@2x.png */; };
+		23A3717C191B26DD006FDA70 /* pesquisa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A37179191B26DD006FDA70 /* pesquisa@2x.png */; };
+		883ECCF919168CA000B3E1CB /* ordenamento_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 883ECCE819168CA000B3E1CB /* ordenamento_40@2x.png */; };
+		883ECD041916909700B3E1CB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883ECD031916909700B3E1CB /* Social.framework */; };
+		883ECD07191699E000B3E1CB /* IGEOGenericSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 883ECD06191699E000B3E1CB /* IGEOGenericSegue.m */; };
+		883ECD0B1916A57900B3E1CB /* IGEOStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 883ECD0A1916A57900B3E1CB /* IGEOStrings.strings */; };
+		888949D71913FBB700C994FD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 888949D61913FBB700C994FD /* Settings.bundle */; };
+		888949DB1913FC4500C994FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888949DA1913FC4500C994FD /* Images.xcassets */; };
+		88894A061913FCB400C994FD /* back_new_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949DC1913FCB300C994FD /* back_new_click@2x.png */; };
+		88894A071913FCB400C994FD /* back_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949DD1913FCB300C994FD /* back_click@2x.png */; };
+		88894A081913FCB400C994FD /* back_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949DE1913FCB300C994FD /* back_new@2x.png */; };
+		88894A091913FCB400C994FD /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949DF1913FCB400C994FD /* back@2x.png */; };
+		88894A0A1913FCB400C994FD /* fechar_menu_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949E01913FCB400C994FD /* fechar_menu_click@2x.png */; };
+		88894A0C1913FCB400C994FD /* fechar_menu_mapa_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949E21913FCB400C994FD /* fechar_menu_mapa_click@2x.png */; };
+		88894A0E1913FCB400C994FD /* fechar_menu_mapa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949E41913FCB400C994FD /* fechar_menu_mapa@2x.png */; };
+		88894A0F1913FCB400C994FD /* fechar_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949E51913FCB400C994FD /* fechar_menu@2x.png */; };
+		88894A121913FCB400C994FD /* home_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949E81913FCB400C994FD /* home_click@2x.png */; };
+		88894A141913FCB400C994FD /* home_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949EA1913FCB400C994FD /* home_new@2x.png */; };
+		88894A151913FCB400C994FD /* home_new_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949EB1913FCB400C994FD /* home_new_click@2x.png */; };
+		88894A171913FCB400C994FD /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949ED1913FCB400C994FD /* home@2x.png */; };
+		88894A1B1913FCB400C994FD /* info_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949F11913FCB400C994FD /* info_click@2x.png */; };
+		88894A1D1913FCB400C994FD /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949F31913FCB400C994FD /* info@2x.png */; };
+		88894A1E1913FCB400C994FD /* lista_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949F41913FCB400C994FD /* lista_click@2x.png */; };
+		88894A1F1913FCB400C994FD /* lista@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949F51913FCB400C994FD /* lista@2x.png */; };
+		88894A201913FCB400C994FD /* logo_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949F61913FCB400C994FD /* logo_home.png */; };
+		88894A211913FCB400C994FD /* logo_lista.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949F71913FCB400C994FD /* logo_lista.png */; };
+		88894A251913FCB400C994FD /* menu_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949FB1913FCB400C994FD /* menu_click@2x.png */; };
+		88894A281913FCB400C994FD /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888949FE1913FCB400C994FD /* menu@2x.png */; };
+		88894A2C1913FCB400C994FD /* pesquisa_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88894A021913FCB400C994FD /* pesquisa_click@2x.png */; };
+		88894A2D1913FCB400C994FD /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 88894A031913FCB400C994FD /* shadow.png */; };
+		88894A321913FD2200C994FD /* ord_img_default_ordenamento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88894A301913FD2200C994FD /* ord_img_default_ordenamento.jpg */; };
+		88894A331913FD2200C994FD /* pat_img_default_patrimonio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88894A311913FD2200C994FD /* pat_img_default_patrimonio.jpg */; };
+		88894A391913FDEF00C994FD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88894A381913FDEF00C994FD /* libsqlite3.0.dylib */; };
+		88894A741914018200C994FD /* MYRIADAB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 88894A621914018200C994FD /* MYRIADAB.TTF */; };
+		88894A751914018200C994FD /* MYRIADAT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 88894A631914018200C994FD /* MYRIADAT.TTF */; };
+		88894A761914018200C994FD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A641914018200C994FD /* Roboto-Black.ttf */; };
+		88894A771914018200C994FD /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A651914018200C994FD /* Roboto-BlackItalic.ttf */; };
+		88894A781914018200C994FD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A661914018200C994FD /* Roboto-Bold.ttf */; };
+		88894A791914018200C994FD /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A671914018200C994FD /* Roboto-BoldCondensed.ttf */; };
+		88894A7A1914018200C994FD /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A681914018200C994FD /* Roboto-BoldCondensedItalic.ttf */; };
+		88894A7B1914018200C994FD /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A691914018200C994FD /* Roboto-BoldItalic.ttf */; };
+		88894A7C1914018200C994FD /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A6A1914018200C994FD /* Roboto-Condensed.ttf */; };
+		88894A7D1914018200C994FD /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A6B1914018200C994FD /* Roboto-CondensedItalic.ttf */; };
+		88894A7E1914018200C994FD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A6C1914018200C994FD /* Roboto-Italic.ttf */; };
+		88894A7F1914018200C994FD /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A6D1914018200C994FD /* Roboto-Light.ttf */; };
+		88894A801914018200C994FD /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A6E1914018200C994FD /* Roboto-LightItalic.ttf */; };
+		88894A811914018200C994FD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A6F1914018200C994FD /* Roboto-Medium.ttf */; };
+		88894A821914018200C994FD /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A701914018200C994FD /* Roboto-MediumItalic.ttf */; };
+		88894A831914018200C994FD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A711914018200C994FD /* Roboto-Regular.ttf */; };
+		88894A841914018200C994FD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A721914018200C994FD /* Roboto-Thin.ttf */; };
+		88894A851914018200C994FD /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88894A731914018200C994FD /* Roboto-ThinItalic.ttf */; };
+		88894A871914019100C994FD /* Regions.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 88894A861914019100C994FD /* Regions.sqlite */; };
+		88894A8A1914031400C994FD /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 88894A891914031400C994FD /* style.css */; };
+		88894A93191407A500C994FD /* share_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88894A91191407A500C994FD /* share_click@2x.png */; };
+		88894A94191407A500C994FD /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88894A92191407A500C994FD /* share@2x.png */; };
+		88924AE81917EE5000F6FAED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88924AE71917EE5000F6FAED /* AVFoundation.framework */; };
+		88B8B3641913F154006B4F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3631913F154006B4F5D /* Foundation.framework */; };
+		88B8B3661913F154006B4F5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3651913F154006B4F5D /* CoreGraphics.framework */; };
+		88B8B3681913F154006B4F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3671913F154006B4F5D /* UIKit.framework */; };
+		88B8B36A1913F154006B4F5D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3691913F154006B4F5D /* CoreData.framework */; };
+		88B8B3721913F154006B4F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B3711913F154006B4F5D /* main.m */; };
+		88B8B3791913F154006B4F5D /* IGEOApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B3771913F154006B4F5D /* IGEOApp.xcdatamodeld */; };
+		88B8B3821913F154006B4F5D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3811913F154006B4F5D /* XCTest.framework */; };
+		88B8B3831913F154006B4F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3631913F154006B4F5D /* Foundation.framework */; };
+		88B8B3841913F154006B4F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3671913F154006B4F5D /* UIKit.framework */; };
+		88B8B3851913F154006B4F5D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B3691913F154006B4F5D /* CoreData.framework */; };
+		88B8B38D1913F154006B4F5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B38B1913F154006B4F5D /* InfoPlist.strings */; };
+		88B8B38F1913F154006B4F5D /* IGEOAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B38E1913F154006B4F5D /* IGEOAppTests.m */; };
+		88B8B3B91913F826006B4F5D /* azure.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3AF1913F826006B4F5D /* azure.png */; };
+		88B8B3BA1913F826006B4F5D /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B01913F826006B4F5D /* blue.png */; };
+		88B8B3BB1913F826006B4F5D /* cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B11913F826006B4F5D /* cyan.png */; };
+		88B8B3BC1913F826006B4F5D /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B21913F826006B4F5D /* green.png */; };
+		88B8B3BD1913F826006B4F5D /* magenta.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B31913F826006B4F5D /* magenta.png */; };
+		88B8B3BE1913F826006B4F5D /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B41913F826006B4F5D /* orange.png */; };
+		88B8B3BF1913F826006B4F5D /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B51913F826006B4F5D /* red.png */; };
+		88B8B3C01913F826006B4F5D /* rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B61913F826006B4F5D /* rose.png */; };
+		88B8B3C11913F826006B4F5D /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B71913F826006B4F5D /* violet.png */; };
+		88B8B3C21913F826006B4F5D /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B3B81913F826006B4F5D /* yellow.png */; };
+		88B8B4491913F879006B4F5D /* nat_img_default_natureza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B4341913F879006B4F5D /* nat_img_default_natureza.jpg */; };
+		88B8B4651913F8AB006B4F5D /* natureza_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B44F1913F8AB006B4F5D /* natureza_29@2x.png */; };
+		88B8B4661913F8AB006B4F5D /* natureza_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B4501913F8AB006B4F5D /* natureza_40@2x.png */; };
+		88B8B4681913F8AB006B4F5D /* natureza_60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B4521913F8AB006B4F5D /* natureza_60@2x.png */; };
+		88B8B46C1913F8AB006B4F5D /* ordenamento_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B4561913F8AB006B4F5D /* ordenamento_29@2x.png */; };
+		88B8B4711913F8AB006B4F5D /* ordenamento_60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B45B1913F8AB006B4F5D /* ordenamento_60@2x.png */; };
+		88B8B4751913F8AB006B4F5D /* patrimonio_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B45F1913F8AB006B4F5D /* patrimonio_29@2x.png */; };
+		88B8B4761913F8AB006B4F5D /* patrimonio_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B4601913F8AB006B4F5D /* patrimonio_40@2x.png */; };
+		88B8B4781913F8AB006B4F5D /* patrimonio_60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B4621913F8AB006B4F5D /* patrimonio_60@2x.png */; };
+		88B8B47D1913F8CE006B4F5D /* splash_iPhone_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B47B1913F8CE006B4F5D /* splash_iPhone_4.png */; };
+		88B8B47E1913F8CE006B4F5D /* splash_iPhone_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B47C1913F8CE006B4F5D /* splash_iPhone_5.png */; };
+		88B8B4A91913F90A006B4F5D /* IGEOInitialConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4A81913F90A006B4F5D /* IGEOInitialConfigs.m */; };
+		88B8B4C41913F920006B4F5D /* IGEOAppConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4AB1913F920006B4F5D /* IGEOAppConfigs.m */; };
+		88B8B4C51913F920006B4F5D /* IGEOButtonElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4AD1913F920006B4F5D /* IGEOButtonElement.m */; };
+		88B8B4C61913F920006B4F5D /* IGEODetailsScreenConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4AF1913F920006B4F5D /* IGEODetailsScreenConfigs.m */; };
+		88B8B4C71913F920006B4F5D /* IGEOGlobalConfigsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4B11913F920006B4F5D /* IGEOGlobalConfigsItem.m */; };
+		88B8B4C81913F920006B4F5D /* IGEOHomeScreenConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4B31913F920006B4F5D /* IGEOHomeScreenConfigs.m */; };
+		88B8B4C91913F920006B4F5D /* IGEOInfoScreenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4B51913F920006B4F5D /* IGEOInfoScreenConfig.m */; };
+		88B8B4CA1913F920006B4F5D /* IGEOListScreenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4B71913F920006B4F5D /* IGEOListScreenConfig.m */; };
+		88B8B4CB1913F920006B4F5D /* IGEOListSourcesScreenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4B91913F920006B4F5D /* IGEOListSourcesScreenConfig.m */; };
+		88B8B4CC1913F920006B4F5D /* IGEONativeMapScreenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4BB1913F920006B4F5D /* IGEONativeMapScreenConfig.m */; };
+		88B8B4CD1913F920006B4F5D /* IGEOOptionsScreenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4BD1913F920006B4F5D /* IGEOOptionsScreenConfig.m */; };
+		88B8B4CE1913F920006B4F5D /* IGEOScreenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4BF1913F920006B4F5D /* IGEOScreenConfig.m */; };
+		88B8B4CF1913F920006B4F5D /* IGEOScreenElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4C11913F920006B4F5D /* IGEOScreenElement.m */; };
+		88B8B4D01913F920006B4F5D /* IGEOSelectLocationScreenConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4C31913F920006B4F5D /* IGEOSelectLocationScreenConfigs.m */; };
+		88B8B4DB1913F94F006B4F5D /* IGEOCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4D21913F94F006B4F5D /* IGEOCategory.m */; };
+		88B8B4DC1913F94F006B4F5D /* IGEODataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4D41913F94F006B4F5D /* IGEODataItem.m */; };
+		88B8B4DD1913F94F006B4F5D /* IGEODataItemsCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4D61913F94F006B4F5D /* IGEODataItemsCache.m */; };
+		88B8B4DE1913F94F006B4F5D /* IGEOGenericDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4D81913F94F006B4F5D /* IGEOGenericDataItem.m */; };
+		88B8B4DF1913F94F006B4F5D /* IGEOSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4DA1913F94F006B4F5D /* IGEOSource.m */; };
+		88B8B4E21913F95C006B4F5D /* IGEOLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4E11913F95C006B4F5D /* IGEOLogger.m */; };
+		88B8B4F31913F976006B4F5D /* IGEOConfigsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4E41913F976006B4F5D /* IGEOConfigsManager.m */; };
+		88B8B4F41913F976006B4F5D /* IGEODataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4E61913F976006B4F5D /* IGEODataManager.m */; };
+		88B8B4F51913F976006B4F5D /* IGEOFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4E81913F976006B4F5D /* IGEOFileUtils.m */; };
+		88B8B4F61913F976006B4F5D /* IGEOJSONServerReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4EA1913F976006B4F5D /* IGEOJSONServerReader.m */; };
+		88B8B4F71913F976006B4F5D /* IGEOLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4EC1913F976006B4F5D /* IGEOLocationManager.m */; };
+		88B8B4F81913F976006B4F5D /* IGEOLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4EE1913F976006B4F5D /* IGEOLogManager.m */; };
+		88B8B4F91913F976006B4F5D /* IGEORelatedAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4F01913F976006B4F5D /* IGEORelatedAppInfo.m */; };
+		88B8B4FA1913F976006B4F5D /* IGEOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4F21913F976006B4F5D /* IGEOUtils.m */; };
+		88B8B4FF1913F98D006B4F5D /* IGEOConfigDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4FC1913F98D006B4F5D /* IGEOConfigDownloadItem.m */; };
+		88B8B5001913F98D006B4F5D /* IGEODownloadsConfigsThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B4FE1913F98D006B4F5D /* IGEODownloadsConfigsThread.m */; };
+		88B8B5151913F9A2006B4F5D /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5021913F9A2006B4F5D /* MKAnnotationView+WebCache.m */; };
+		88B8B5161913F9A2006B4F5D /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5041913F9A2006B4F5D /* SDImageCache.m */; };
+		88B8B5171913F9A2006B4F5D /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5081913F9A2006B4F5D /* SDWebImageDecoder.m */; };
+		88B8B5181913F9A2006B4F5D /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B50A1913F9A2006B4F5D /* SDWebImageDownloader.m */; };
+		88B8B5191913F9A2006B4F5D /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B50D1913F9A2006B4F5D /* SDWebImageManager.m */; };
+		88B8B51A1913F9A2006B4F5D /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5101913F9A2006B4F5D /* SDWebImagePrefetcher.m */; };
+		88B8B51B1913F9A2006B4F5D /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5121913F9A2006B4F5D /* UIButton+WebCache.m */; };
+		88B8B51C1913F9A2006B4F5D /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5141913F9A2006B4F5D /* UIImageView+WebCache.m */; };
+		88B8B52F1913F9B5006B4F5D /* IGEOConfigurableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B51E1913F9B5006B4F5D /* IGEOConfigurableViewController.m */; };
+		88B8B5301913F9B5006B4F5D /* IGEODetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5201913F9B5006B4F5D /* IGEODetailsViewController.m */; };
+		88B8B5321913F9B5006B4F5D /* IGEOInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5241913F9B5006B4F5D /* IGEOInfoViewController.m */; };
+		88B8B5331913F9B5006B4F5D /* IGEOListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5261913F9B5006B4F5D /* IGEOListViewController.m */; };
+		88B8B5341913F9B5006B4F5D /* IGEOMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5281913F9B5006B4F5D /* IGEOMainViewController.m */; };
+		88B8B5351913F9B5006B4F5D /* IGEOMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B52A1913F9B5006B4F5D /* IGEOMapViewController.m */; };
+		88B8B5361913F9B5006B4F5D /* IGEOOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B52C1913F9B5006B4F5D /* IGEOOptionsViewController.m */; };
+		88B8B53E1913F9C3006B4F5D /* IGEOLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5391913F9C3006B4F5D /* IGEOLocation.m */; };
+		88B8B53F1913F9C3006B4F5D /* IGEOQueryParamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B53B1913F9C3006B4F5D /* IGEOQueryParamsViewController.m */; };
+		88B8B5401913F9C3006B4F5D /* IGEOSearchQueryBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B53D1913F9C3006B4F5D /* IGEOSearchQueryBuilder.m */; };
+		88B8B5511913F9D4006B4F5D /* IGEOFromBottomReplacePopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5421913F9D4006B4F5D /* IGEOFromBottomReplacePopSegue.m */; };
+		88B8B5521913F9D4006B4F5D /* IGEOFromBottomReplaceSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5441913F9D4006B4F5D /* IGEOFromBottomReplaceSegue.m */; };
+		88B8B5531913F9D4006B4F5D /* IGEOFromTopReplacePopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5461913F9D4006B4F5D /* IGEOFromTopReplacePopSegue.m */; };
+		88B8B5541913F9D4006B4F5D /* IGEOFromTopReplaceSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5481913F9D4006B4F5D /* IGEOFromTopReplaceSegue.m */; };
+		88B8B5551913F9D4006B4F5D /* IGEOMapMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B54A1913F9D4006B4F5D /* IGEOMapMarker.m */; };
+		88B8B5561913F9D4006B4F5D /* IGEOPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B54C1913F9D4006B4F5D /* IGEOPolygon.m */; };
+		88B8B5571913F9D4006B4F5D /* IGEOPopBackSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B54E1913F9D4006B4F5D /* IGEOPopBackSegue.m */; };
+		88B8B5581913F9D4006B4F5D /* IGEOSearchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5501913F9D4006B4F5D /* IGEOSearchButton.m */; };
+		88B8B56B1913F9E5006B4F5D /* IGEOCategoryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B55A1913F9E5006B4F5D /* IGEOCategoryListCell.m */; };
+		88B8B56C1913F9E5006B4F5D /* IGEOCategoryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B55B1913F9E5006B4F5D /* IGEOCategoryListCell.xib */; };
+		88B8B56D1913F9E5006B4F5D /* IGEOCategoryMapListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B55D1913F9E5006B4F5D /* IGEOCategoryMapListCell.m */; };
+		88B8B56E1913F9E5006B4F5D /* IGEOCategoryMapListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B55E1913F9E5006B4F5D /* IGEOCategoryMapListCell.xib */; };
+		88B8B56F1913F9E5006B4F5D /* IGEODataItemListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5601913F9E5006B4F5D /* IGEODataItemListCell.m */; };
+		88B8B5701913F9E5006B4F5D /* IGEODataItemListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B5611913F9E5006B4F5D /* IGEODataItemListCell.xib */; };
+		88B8B5711913F9E5006B4F5D /* IGEODataItemTitleListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5631913F9E5006B4F5D /* IGEODataItemTitleListCell.m */; };
+		88B8B5721913F9E5006B4F5D /* IGEODataItemTitleListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B5641913F9E5006B4F5D /* IGEODataItemTitleListCell.xib */; };
+		88B8B5731913F9E5006B4F5D /* IGEOPlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5661913F9E5006B4F5D /* IGEOPlaceCell.m */; };
+		88B8B5741913F9E5006B4F5D /* IGEOPlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B5671913F9E5006B4F5D /* IGEOPlaceCell.xib */; };
+		88B8B5751913F9E5006B4F5D /* IGEOSourceListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5691913F9E5006B4F5D /* IGEOSourceListCell.m */; };
+		88B8B5761913F9E5006B4F5D /* IGEOSourceListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B56A1913F9E5006B4F5D /* IGEOSourceListCell.xib */; };
+		88B8B57A1913FA32006B4F5D /* IGEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B5781913FA31006B4F5D /* IGEOAppDelegate.m */; };
+		88B8B57B1913FA32006B4F5D /* IGEOStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B5791913FA31006B4F5D /* IGEOStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B8B3861913F154006B4F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B8B3581913F154006B4F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B8B35F1913F154006B4F5D;
+			remoteInfo = IGEOApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231A26B0191B1E6900DACEB1 /* ord_bg_cus_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ord_bg_cus_right.jpg; path = IGEOImages/ord_bg_cus_right.jpg; sourceTree = "<group>"; };
+		231A26B1191B1E6900DACEB1 /* ord_bg_cus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ord_bg_cus.jpg; path = IGEOImages/ord_bg_cus.jpg; sourceTree = "<group>"; };
+		231A26B2191B1E6900DACEB1 /* ord_cat_default_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_cat_default_selected.png; path = IGEOImages/ord_cat_default_selected.png; sourceTree = "<group>"; };
+		231A26B3191B1E6900DACEB1 /* ord_cat_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_cat_default.png; path = IGEOImages/ord_cat_default.png; sourceTree = "<group>"; };
+		231A26B4191B1E6900DACEB1 /* ord_explore_click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_explore_click.png; path = IGEOImages/ord_explore_click.png; sourceTree = "<group>"; };
+		231A26B5191B1E6900DACEB1 /* ord_explore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_explore.png; path = IGEOImages/ord_explore.png; sourceTree = "<group>"; };
+		231A26B6191B1E6900DACEB1 /* ord_header_ordenamento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_header_ordenamento.png; path = IGEOImages/ord_header_ordenamento.png; sourceTree = "<group>"; };
+		231A26B7191B1E6900DACEB1 /* ord_perto_de_mim_click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_perto_de_mim_click.png; path = IGEOImages/ord_perto_de_mim_click.png; sourceTree = "<group>"; };
+		231A26B8191B1E6900DACEB1 /* ord_perto_de_mim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_perto_de_mim.png; path = IGEOImages/ord_perto_de_mim.png; sourceTree = "<group>"; };
+		231A26B9191B1E6900DACEB1 /* ord_portugal_click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_portugal_click.png; path = IGEOImages/ord_portugal_click.png; sourceTree = "<group>"; };
+		231A26BA191B1E6900DACEB1 /* ord_portugal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ord_portugal.png; path = IGEOImages/ord_portugal.png; sourceTree = "<group>"; };
+		231A26BB191B1E6900DACEB1 /* ord_bg_crus_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ord_bg_crus_right.jpg; path = IGEOImages/ord_bg_crus_right.jpg; sourceTree = "<group>"; };
+		231A26BC191B1E6900DACEB1 /* ord_bg_home_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ord_bg_home_right.jpg; path = IGEOImages/ord_bg_home_right.jpg; sourceTree = "<group>"; };
+		231A26BD191B1E6900DACEB1 /* ord_bg_home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ord_bg_home.jpg; path = IGEOImages/ord_bg_home.jpg; sourceTree = "<group>"; };
+		231A26BE191B1E6900DACEB1 /* ord_bg_crus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ord_bg_crus.jpg; path = IGEOImages/ord_bg_crus.jpg; sourceTree = "<group>"; };
+		23A37177191B26DD006FDA70 /* mapa_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapa_click@2x.png"; sourceTree = "<group>"; };
+		23A37178191B26DD006FDA70 /* mapa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapa@2x.png"; sourceTree = "<group>"; };
+		23A37179191B26DD006FDA70 /* pesquisa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pesquisa@2x.png"; sourceTree = "<group>"; };
+		883ECCE819168CA000B3E1CB /* ordenamento_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ordenamento_40@2x.png"; sourceTree = "<group>"; };
+		883ECD031916909700B3E1CB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		883ECD05191699E000B3E1CB /* IGEOGenericSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOGenericSegue.h; path = IGEOUI/IGEOUIViews/IGEOGenericSegue.h; sourceTree = "<group>"; };
+		883ECD06191699E000B3E1CB /* IGEOGenericSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOGenericSegue.m; path = IGEOUI/IGEOUIViews/IGEOGenericSegue.m; sourceTree = "<group>"; };
+		883ECD0A1916A57900B3E1CB /* IGEOStrings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = IGEOStrings.strings; path = IGEOCore/IGEOStrings.strings; sourceTree = "<group>"; };
+		888949D61913FBB700C994FD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		888949D81913FBDC00C994FD /* IGEOApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IGEOApp-Info.plist"; sourceTree = "<group>"; };
+		888949DA1913FC4500C994FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		888949DC1913FCB300C994FD /* back_new_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_new_click@2x.png"; path = "IGEOImages/back_new_click@2x.png"; sourceTree = "<group>"; };
+		888949DD1913FCB300C994FD /* back_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_click@2x.png"; path = "IGEOImages/back_click@2x.png"; sourceTree = "<group>"; };
+		888949DE1913FCB300C994FD /* back_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_new@2x.png"; path = "IGEOImages/back_new@2x.png"; sourceTree = "<group>"; };
+		888949DF1913FCB400C994FD /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "IGEOImages/back@2x.png"; sourceTree = "<group>"; };
+		888949E01913FCB400C994FD /* fechar_menu_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fechar_menu_click@2x.png"; path = "IGEOImages/fechar_menu_click@2x.png"; sourceTree = "<group>"; };
+		888949E21913FCB400C994FD /* fechar_menu_mapa_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fechar_menu_mapa_click@2x.png"; path = "IGEOImages/fechar_menu_mapa_click@2x.png"; sourceTree = "<group>"; };
+		888949E41913FCB400C994FD /* fechar_menu_mapa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fechar_menu_mapa@2x.png"; path = "IGEOImages/fechar_menu_mapa@2x.png"; sourceTree = "<group>"; };
+		888949E51913FCB400C994FD /* fechar_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fechar_menu@2x.png"; path = "IGEOImages/fechar_menu@2x.png"; sourceTree = "<group>"; };
+		888949E81913FCB400C994FD /* home_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_click@2x.png"; path = "IGEOImages/home_click@2x.png"; sourceTree = "<group>"; };
+		888949EA1913FCB400C994FD /* home_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_new@2x.png"; path = "IGEOImages/home_new@2x.png"; sourceTree = "<group>"; };
+		888949EB1913FCB400C994FD /* home_new_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_new_click@2x.png"; path = "IGEOImages/home_new_click@2x.png"; sourceTree = "<group>"; };
+		888949ED1913FCB400C994FD /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home@2x.png"; path = "IGEOImages/home@2x.png"; sourceTree = "<group>"; };
+		888949F11913FCB400C994FD /* info_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info_click@2x.png"; path = "IGEOImages/info_click@2x.png"; sourceTree = "<group>"; };
+		888949F31913FCB400C994FD /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "IGEOImages/info@2x.png"; sourceTree = "<group>"; };
+		888949F41913FCB400C994FD /* lista_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lista_click@2x.png"; path = "IGEOImages/lista_click@2x.png"; sourceTree = "<group>"; };
+		888949F51913FCB400C994FD /* lista@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lista@2x.png"; path = "IGEOImages/lista@2x.png"; sourceTree = "<group>"; };
+		888949F61913FCB400C994FD /* logo_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_home.png; path = IGEOImages/logo_home.png; sourceTree = "<group>"; };
+		888949F71913FCB400C994FD /* logo_lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_lista.png; path = IGEOImages/logo_lista.png; sourceTree = "<group>"; };
+		888949FB1913FCB400C994FD /* menu_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu_click@2x.png"; path = "IGEOImages/menu_click@2x.png"; sourceTree = "<group>"; };
+		888949FE1913FCB400C994FD /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "IGEOImages/menu@2x.png"; sourceTree = "<group>"; };
+		88894A021913FCB400C994FD /* pesquisa_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pesquisa_click@2x.png"; path = "IGEOImages/pesquisa_click@2x.png"; sourceTree = "<group>"; };
+		88894A031913FCB400C994FD /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shadow.png; path = IGEOImages/shadow.png; sourceTree = "<group>"; };
+		88894A301913FD2200C994FD /* ord_img_default_ordenamento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ord_img_default_ordenamento.jpg; path = IGEOImages/ord_img_default_ordenamento.jpg; sourceTree = "<group>"; };
+		88894A311913FD2200C994FD /* pat_img_default_patrimonio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pat_img_default_patrimonio.jpg; path = IGEOImages/pat_img_default_patrimonio.jpg; sourceTree = "<group>"; };
+		88894A381913FDEF00C994FD /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		88894A621914018200C994FD /* MYRIADAB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = MYRIADAB.TTF; sourceTree = "<group>"; };
+		88894A631914018200C994FD /* MYRIADAT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = MYRIADAT.TTF; sourceTree = "<group>"; };
+		88894A641914018200C994FD /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		88894A651914018200C994FD /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		88894A661914018200C994FD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		88894A671914018200C994FD /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		88894A681914018200C994FD /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		88894A691914018200C994FD /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		88894A6A1914018200C994FD /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		88894A6B1914018200C994FD /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		88894A6C1914018200C994FD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		88894A6D1914018200C994FD /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		88894A6E1914018200C994FD /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		88894A6F1914018200C994FD /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		88894A701914018200C994FD /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		88894A711914018200C994FD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		88894A721914018200C994FD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		88894A731914018200C994FD /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		88894A861914019100C994FD /* Regions.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Regions.sqlite; sourceTree = SOURCE_ROOT; };
+		88894A891914031400C994FD /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		88894A91191407A500C994FD /* share_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share_click@2x.png"; path = "IGEOImages/share_click@2x.png"; sourceTree = "<group>"; };
+		88894A92191407A500C994FD /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share@2x.png"; path = "IGEOImages/share@2x.png"; sourceTree = "<group>"; };
+		88924AE71917EE5000F6FAED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88B8B3601913F154006B4F5D /* IGEOApp-Ordenamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IGEOApp-Ordenamento.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B8B3631913F154006B4F5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88B8B3651913F154006B4F5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88B8B3671913F154006B4F5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88B8B3691913F154006B4F5D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		88B8B3711913F154006B4F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88B8B3731913F154006B4F5D /* IGEOApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IGEOApp-Prefix.pch"; sourceTree = "<group>"; };
+		88B8B3781913F154006B4F5D /* IGEOApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IGEOApp.xcdatamodel; sourceTree = "<group>"; };
+		88B8B3801913F154006B4F5D /* IGEOAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGEOAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B8B3811913F154006B4F5D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88B8B38A1913F154006B4F5D /* IGEOAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IGEOAppTests-Info.plist"; sourceTree = "<group>"; };
+		88B8B38C1913F154006B4F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88B8B38E1913F154006B4F5D /* IGEOAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGEOAppTests.m; sourceTree = "<group>"; };
+		88B8B3AF1913F826006B4F5D /* azure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = azure.png; path = IGEOImages/azure.png; sourceTree = "<group>"; };
+		88B8B3B01913F826006B4F5D /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = IGEOImages/blue.png; sourceTree = "<group>"; };
+		88B8B3B11913F826006B4F5D /* cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cyan.png; path = IGEOImages/cyan.png; sourceTree = "<group>"; };
+		88B8B3B21913F826006B4F5D /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = IGEOImages/green.png; sourceTree = "<group>"; };
+		88B8B3B31913F826006B4F5D /* magenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magenta.png; path = IGEOImages/magenta.png; sourceTree = "<group>"; };
+		88B8B3B41913F826006B4F5D /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = IGEOImages/orange.png; sourceTree = "<group>"; };
+		88B8B3B51913F826006B4F5D /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = IGEOImages/red.png; sourceTree = "<group>"; };
+		88B8B3B61913F826006B4F5D /* rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rose.png; path = IGEOImages/rose.png; sourceTree = "<group>"; };
+		88B8B3B71913F826006B4F5D /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violet.png; path = IGEOImages/violet.png; sourceTree = "<group>"; };
+		88B8B3B81913F826006B4F5D /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = IGEOImages/yellow.png; sourceTree = "<group>"; };
+		88B8B4341913F879006B4F5D /* nat_img_default_natureza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nat_img_default_natureza.jpg; path = IGEOImages/nat_img_default_natureza.jpg; sourceTree = "<group>"; };
+		88B8B44F1913F8AB006B4F5D /* natureza_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "natureza_29@2x.png"; path = "IGEOImages/natureza_29@2x.png"; sourceTree = "<group>"; };
+		88B8B4501913F8AB006B4F5D /* natureza_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "natureza_40@2x.png"; path = "IGEOImages/natureza_40@2x.png"; sourceTree = "<group>"; };
+		88B8B4521913F8AB006B4F5D /* natureza_60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "natureza_60@2x.png"; path = "IGEOImages/natureza_60@2x.png"; sourceTree = "<group>"; };
+		88B8B4561913F8AB006B4F5D /* ordenamento_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ordenamento_29@2x.png"; path = "IGEOImages/ordenamento_29@2x.png"; sourceTree = "<group>"; };
+		88B8B45B1913F8AB006B4F5D /* ordenamento_60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ordenamento_60@2x.png"; path = "IGEOImages/ordenamento_60@2x.png"; sourceTree = "<group>"; };
+		88B8B45F1913F8AB006B4F5D /* patrimonio_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "patrimonio_29@2x.png"; path = "IGEOImages/patrimonio_29@2x.png"; sourceTree = "<group>"; };
+		88B8B4601913F8AB006B4F5D /* patrimonio_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "patrimonio_40@2x.png"; path = "IGEOImages/patrimonio_40@2x.png"; sourceTree = "<group>"; };
+		88B8B4621913F8AB006B4F5D /* patrimonio_60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "patrimonio_60@2x.png"; path = "IGEOImages/patrimonio_60@2x.png"; sourceTree = "<group>"; };
+		88B8B47B1913F8CE006B4F5D /* splash_iPhone_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_iPhone_4.png; path = IGEOImages/splash_iPhone_4.png; sourceTree = "<group>"; };
+		88B8B47C1913F8CE006B4F5D /* splash_iPhone_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_iPhone_5.png; path = IGEOImages/splash_iPhone_5.png; sourceTree = "<group>"; };
+		88B8B4A71913F90A006B4F5D /* IGEOInitialConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOInitialConfigs.h; path = IGEOCore/IGEOCoreConfigs/InitialConfigs/IGEOInitialConfigs.h; sourceTree = "<group>"; };
+		88B8B4A81913F90A006B4F5D /* IGEOInitialConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOInitialConfigs.m; path = IGEOCore/IGEOCoreConfigs/InitialConfigs/IGEOInitialConfigs.m; sourceTree = "<group>"; };
+		88B8B4AA1913F920006B4F5D /* IGEOAppConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOAppConfigs.h; path = IGEOCore/IGEOCoreConfigs/IGEOAppConfigs.h; sourceTree = "<group>"; };
+		88B8B4AB1913F920006B4F5D /* IGEOAppConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOAppConfigs.m; path = IGEOCore/IGEOCoreConfigs/IGEOAppConfigs.m; sourceTree = "<group>"; };
+		88B8B4AC1913F920006B4F5D /* IGEOButtonElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOButtonElement.h; path = IGEOCore/IGEOCoreConfigs/IGEOButtonElement.h; sourceTree = "<group>"; };
+		88B8B4AD1913F920006B4F5D /* IGEOButtonElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOButtonElement.m; path = IGEOCore/IGEOCoreConfigs/IGEOButtonElement.m; sourceTree = "<group>"; };
+		88B8B4AE1913F920006B4F5D /* IGEODetailsScreenConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODetailsScreenConfigs.h; path = IGEOCore/IGEOCoreConfigs/IGEODetailsScreenConfigs.h; sourceTree = "<group>"; };
+		88B8B4AF1913F920006B4F5D /* IGEODetailsScreenConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODetailsScreenConfigs.m; path = IGEOCore/IGEOCoreConfigs/IGEODetailsScreenConfigs.m; sourceTree = "<group>"; };
+		88B8B4B01913F920006B4F5D /* IGEOGlobalConfigsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOGlobalConfigsItem.h; path = IGEOCore/IGEOCoreConfigs/IGEOGlobalConfigsItem.h; sourceTree = "<group>"; };
+		88B8B4B11913F920006B4F5D /* IGEOGlobalConfigsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOGlobalConfigsItem.m; path = IGEOCore/IGEOCoreConfigs/IGEOGlobalConfigsItem.m; sourceTree = "<group>"; };
+		88B8B4B21913F920006B4F5D /* IGEOHomeScreenConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOHomeScreenConfigs.h; path = IGEOCore/IGEOCoreConfigs/IGEOHomeScreenConfigs.h; sourceTree = "<group>"; };
+		88B8B4B31913F920006B4F5D /* IGEOHomeScreenConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOHomeScreenConfigs.m; path = IGEOCore/IGEOCoreConfigs/IGEOHomeScreenConfigs.m; sourceTree = "<group>"; };
+		88B8B4B41913F920006B4F5D /* IGEOInfoScreenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOInfoScreenConfig.h; path = IGEOCore/IGEOCoreConfigs/IGEOInfoScreenConfig.h; sourceTree = "<group>"; };
+		88B8B4B51913F920006B4F5D /* IGEOInfoScreenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOInfoScreenConfig.m; path = IGEOCore/IGEOCoreConfigs/IGEOInfoScreenConfig.m; sourceTree = "<group>"; };
+		88B8B4B61913F920006B4F5D /* IGEOListScreenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOListScreenConfig.h; path = IGEOCore/IGEOCoreConfigs/IGEOListScreenConfig.h; sourceTree = "<group>"; };
+		88B8B4B71913F920006B4F5D /* IGEOListScreenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOListScreenConfig.m; path = IGEOCore/IGEOCoreConfigs/IGEOListScreenConfig.m; sourceTree = "<group>"; };
+		88B8B4B81913F920006B4F5D /* IGEOListSourcesScreenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOListSourcesScreenConfig.h; path = IGEOCore/IGEOCoreConfigs/IGEOListSourcesScreenConfig.h; sourceTree = "<group>"; };
+		88B8B4B91913F920006B4F5D /* IGEOListSourcesScreenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOListSourcesScreenConfig.m; path = IGEOCore/IGEOCoreConfigs/IGEOListSourcesScreenConfig.m; sourceTree = "<group>"; };
+		88B8B4BA1913F920006B4F5D /* IGEONativeMapScreenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEONativeMapScreenConfig.h; path = IGEOCore/IGEOCoreConfigs/IGEONativeMapScreenConfig.h; sourceTree = "<group>"; };
+		88B8B4BB1913F920006B4F5D /* IGEONativeMapScreenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEONativeMapScreenConfig.m; path = IGEOCore/IGEOCoreConfigs/IGEONativeMapScreenConfig.m; sourceTree = "<group>"; };
+		88B8B4BC1913F920006B4F5D /* IGEOOptionsScreenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOOptionsScreenConfig.h; path = IGEOCore/IGEOCoreConfigs/IGEOOptionsScreenConfig.h; sourceTree = "<group>"; };
+		88B8B4BD1913F920006B4F5D /* IGEOOptionsScreenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOOptionsScreenConfig.m; path = IGEOCore/IGEOCoreConfigs/IGEOOptionsScreenConfig.m; sourceTree = "<group>"; };
+		88B8B4BE1913F920006B4F5D /* IGEOScreenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOScreenConfig.h; path = IGEOCore/IGEOCoreConfigs/IGEOScreenConfig.h; sourceTree = "<group>"; };
+		88B8B4BF1913F920006B4F5D /* IGEOScreenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOScreenConfig.m; path = IGEOCore/IGEOCoreConfigs/IGEOScreenConfig.m; sourceTree = "<group>"; };
+		88B8B4C01913F920006B4F5D /* IGEOScreenElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOScreenElement.h; path = IGEOCore/IGEOCoreConfigs/IGEOScreenElement.h; sourceTree = "<group>"; };
+		88B8B4C11913F920006B4F5D /* IGEOScreenElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOScreenElement.m; path = IGEOCore/IGEOCoreConfigs/IGEOScreenElement.m; sourceTree = "<group>"; };
+		88B8B4C21913F920006B4F5D /* IGEOSelectLocationScreenConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOSelectLocationScreenConfigs.h; path = IGEOCore/IGEOCoreConfigs/IGEOSelectLocationScreenConfigs.h; sourceTree = "<group>"; };
+		88B8B4C31913F920006B4F5D /* IGEOSelectLocationScreenConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOSelectLocationScreenConfigs.m; path = IGEOCore/IGEOCoreConfigs/IGEOSelectLocationScreenConfigs.m; sourceTree = "<group>"; };
+		88B8B4D11913F94F006B4F5D /* IGEOCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOCategory.h; path = IGEOCore/IGEOCoreDataSource/IGEOCategory.h; sourceTree = "<group>"; };
+		88B8B4D21913F94F006B4F5D /* IGEOCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOCategory.m; path = IGEOCore/IGEOCoreDataSource/IGEOCategory.m; sourceTree = "<group>"; };
+		88B8B4D31913F94F006B4F5D /* IGEODataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODataItem.h; path = IGEOCore/IGEOCoreDataSource/IGEODataItem.h; sourceTree = "<group>"; };
+		88B8B4D41913F94F006B4F5D /* IGEODataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODataItem.m; path = IGEOCore/IGEOCoreDataSource/IGEODataItem.m; sourceTree = "<group>"; };
+		88B8B4D51913F94F006B4F5D /* IGEODataItemsCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODataItemsCache.h; path = IGEOCore/IGEOCoreDataSource/IGEODataItemsCache.h; sourceTree = "<group>"; };
+		88B8B4D61913F94F006B4F5D /* IGEODataItemsCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODataItemsCache.m; path = IGEOCore/IGEOCoreDataSource/IGEODataItemsCache.m; sourceTree = "<group>"; };
+		88B8B4D71913F94F006B4F5D /* IGEOGenericDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOGenericDataItem.h; path = IGEOCore/IGEOCoreDataSource/IGEOGenericDataItem.h; sourceTree = "<group>"; };
+		88B8B4D81913F94F006B4F5D /* IGEOGenericDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOGenericDataItem.m; path = IGEOCore/IGEOCoreDataSource/IGEOGenericDataItem.m; sourceTree = "<group>"; };
+		88B8B4D91913F94F006B4F5D /* IGEOSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOSource.h; path = IGEOCore/IGEOCoreDataSource/IGEOSource.h; sourceTree = "<group>"; };
+		88B8B4DA1913F94F006B4F5D /* IGEOSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOSource.m; path = IGEOCore/IGEOCoreDataSource/IGEOSource.m; sourceTree = "<group>"; };
+		88B8B4E01913F95C006B4F5D /* IGEOLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOLogger.h; path = IGEOCore/IGEOCoreLogs/IGEOLogger.h; sourceTree = "<group>"; };
+		88B8B4E11913F95C006B4F5D /* IGEOLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOLogger.m; path = IGEOCore/IGEOCoreLogs/IGEOLogger.m; sourceTree = "<group>"; };
+		88B8B4E31913F976006B4F5D /* IGEOConfigsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOConfigsManager.h; path = IGEOCore/IGEOConfigsManager.h; sourceTree = "<group>"; };
+		88B8B4E41913F976006B4F5D /* IGEOConfigsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOConfigsManager.m; path = IGEOCore/IGEOConfigsManager.m; sourceTree = "<group>"; };
+		88B8B4E51913F976006B4F5D /* IGEODataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODataManager.h; path = IGEOCore/IGEODataManager.h; sourceTree = "<group>"; };
+		88B8B4E61913F976006B4F5D /* IGEODataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODataManager.m; path = IGEOCore/IGEODataManager.m; sourceTree = "<group>"; };
+		88B8B4E71913F976006B4F5D /* IGEOFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOFileUtils.h; path = IGEOCore/IGEOFileUtils.h; sourceTree = "<group>"; };
+		88B8B4E81913F976006B4F5D /* IGEOFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOFileUtils.m; path = IGEOCore/IGEOFileUtils.m; sourceTree = "<group>"; };
+		88B8B4E91913F976006B4F5D /* IGEOJSONServerReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOJSONServerReader.h; path = IGEOCore/IGEOJSONServerReader.h; sourceTree = "<group>"; };
+		88B8B4EA1913F976006B4F5D /* IGEOJSONServerReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOJSONServerReader.m; path = IGEOCore/IGEOJSONServerReader.m; sourceTree = "<group>"; };
+		88B8B4EB1913F976006B4F5D /* IGEOLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOLocationManager.h; path = IGEOCore/IGEOLocationManager.h; sourceTree = "<group>"; };
+		88B8B4EC1913F976006B4F5D /* IGEOLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOLocationManager.m; path = IGEOCore/IGEOLocationManager.m; sourceTree = "<group>"; };
+		88B8B4ED1913F976006B4F5D /* IGEOLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOLogManager.h; path = IGEOCore/IGEOLogManager.h; sourceTree = "<group>"; };
+		88B8B4EE1913F976006B4F5D /* IGEOLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOLogManager.m; path = IGEOCore/IGEOLogManager.m; sourceTree = "<group>"; };
+		88B8B4EF1913F976006B4F5D /* IGEORelatedAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEORelatedAppInfo.h; path = IGEOCore/IGEORelatedAppInfo.h; sourceTree = "<group>"; };
+		88B8B4F01913F976006B4F5D /* IGEORelatedAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEORelatedAppInfo.m; path = IGEOCore/IGEORelatedAppInfo.m; sourceTree = "<group>"; };
+		88B8B4F11913F976006B4F5D /* IGEOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOUtils.h; path = IGEOCore/IGEOUtils.h; sourceTree = "<group>"; };
+		88B8B4F21913F976006B4F5D /* IGEOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOUtils.m; path = IGEOCore/IGEOUtils.m; sourceTree = "<group>"; };
+		88B8B4FB1913F98D006B4F5D /* IGEOConfigDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOConfigDownloadItem.h; path = IGEOUI/IGEOThreads/IGEOConfigDownloadItem.h; sourceTree = "<group>"; };
+		88B8B4FC1913F98D006B4F5D /* IGEOConfigDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOConfigDownloadItem.m; path = IGEOUI/IGEOThreads/IGEOConfigDownloadItem.m; sourceTree = "<group>"; };
+		88B8B4FD1913F98D006B4F5D /* IGEODownloadsConfigsThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODownloadsConfigsThread.h; path = IGEOUI/IGEOThreads/IGEODownloadsConfigsThread.h; sourceTree = "<group>"; };
+		88B8B4FE1913F98D006B4F5D /* IGEODownloadsConfigsThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODownloadsConfigsThread.m; path = IGEOUI/IGEOThreads/IGEODownloadsConfigsThread.m; sourceTree = "<group>"; };
+		88B8B5011913F9A2006B4F5D /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+WebCache.h"; path = "IGEOUI/SDwebImage/MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		88B8B5021913F9A2006B4F5D /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+WebCache.m"; path = "IGEOUI/SDwebImage/MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		88B8B5031913F9A2006B4F5D /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = IGEOUI/SDwebImage/SDImageCache.h; sourceTree = "<group>"; };
+		88B8B5041913F9A2006B4F5D /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = IGEOUI/SDwebImage/SDImageCache.m; sourceTree = "<group>"; };
+		88B8B5051913F9A2006B4F5D /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDelegate.h; path = IGEOUI/SDwebImage/SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		88B8B5061913F9A2006B4F5D /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = IGEOUI/SDwebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		88B8B5071913F9A2006B4F5D /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = IGEOUI/SDwebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		88B8B5081913F9A2006B4F5D /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = IGEOUI/SDwebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		88B8B5091913F9A2006B4F5D /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = IGEOUI/SDwebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		88B8B50A1913F9A2006B4F5D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = IGEOUI/SDwebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		88B8B50B1913F9A2006B4F5D /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDelegate.h; path = IGEOUI/SDwebImage/SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		88B8B50C1913F9A2006B4F5D /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = IGEOUI/SDwebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		88B8B50D1913F9A2006B4F5D /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = IGEOUI/SDwebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		88B8B50E1913F9A2006B4F5D /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageManagerDelegate.h; path = IGEOUI/SDwebImage/SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		88B8B50F1913F9A2006B4F5D /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = IGEOUI/SDwebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		88B8B5101913F9A2006B4F5D /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = IGEOUI/SDwebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		88B8B5111913F9A2006B4F5D /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "IGEOUI/SDwebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		88B8B5121913F9A2006B4F5D /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "IGEOUI/SDwebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		88B8B5131913F9A2006B4F5D /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "IGEOUI/SDwebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		88B8B5141913F9A2006B4F5D /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "IGEOUI/SDwebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		88B8B51D1913F9B5006B4F5D /* IGEOConfigurableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOConfigurableViewController.h; path = IGEOUI/IGEOUIViewControllers/IGEOConfigurableViewController.h; sourceTree = "<group>"; };
+		88B8B51E1913F9B5006B4F5D /* IGEOConfigurableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOConfigurableViewController.m; path = IGEOUI/IGEOUIViewControllers/IGEOConfigurableViewController.m; sourceTree = "<group>"; };
+		88B8B51F1913F9B5006B4F5D /* IGEODetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODetailsViewController.h; path = IGEOUI/IGEOUIViewControllers/IGEODetailsViewController.h; sourceTree = "<group>"; };
+		88B8B5201913F9B5006B4F5D /* IGEODetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODetailsViewController.m; path = IGEOUI/IGEOUIViewControllers/IGEODetailsViewController.m; sourceTree = "<group>"; };
+		88B8B5231913F9B5006B4F5D /* IGEOInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOInfoViewController.h; path = IGEOUI/IGEOUIViewControllers/IGEOInfoViewController.h; sourceTree = "<group>"; };
+		88B8B5241913F9B5006B4F5D /* IGEOInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOInfoViewController.m; path = IGEOUI/IGEOUIViewControllers/IGEOInfoViewController.m; sourceTree = "<group>"; };
+		88B8B5251913F9B5006B4F5D /* IGEOListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOListViewController.h; path = IGEOUI/IGEOUIViewControllers/IGEOListViewController.h; sourceTree = "<group>"; };
+		88B8B5261913F9B5006B4F5D /* IGEOListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOListViewController.m; path = IGEOUI/IGEOUIViewControllers/IGEOListViewController.m; sourceTree = "<group>"; };
+		88B8B5271913F9B5006B4F5D /* IGEOMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOMainViewController.h; path = IGEOUI/IGEOUIViewControllers/IGEOMainViewController.h; sourceTree = "<group>"; };
+		88B8B5281913F9B5006B4F5D /* IGEOMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOMainViewController.m; path = IGEOUI/IGEOUIViewControllers/IGEOMainViewController.m; sourceTree = "<group>"; };
+		88B8B5291913F9B5006B4F5D /* IGEOMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOMapViewController.h; path = IGEOUI/IGEOUIViewControllers/IGEOMapViewController.h; sourceTree = "<group>"; };
+		88B8B52A1913F9B5006B4F5D /* IGEOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOMapViewController.m; path = IGEOUI/IGEOUIViewControllers/IGEOMapViewController.m; sourceTree = "<group>"; };
+		88B8B52B1913F9B5006B4F5D /* IGEOOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOOptionsViewController.h; path = IGEOUI/IGEOUIViewControllers/IGEOOptionsViewController.h; sourceTree = "<group>"; };
+		88B8B52C1913F9B5006B4F5D /* IGEOOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOOptionsViewController.m; path = IGEOUI/IGEOUIViewControllers/IGEOOptionsViewController.m; sourceTree = "<group>"; };
+		88B8B5381913F9C3006B4F5D /* IGEOLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOLocation.h; path = IGEOUI/IGEOUIPlaces/IGEOLocation.h; sourceTree = "<group>"; };
+		88B8B5391913F9C3006B4F5D /* IGEOLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOLocation.m; path = IGEOUI/IGEOUIPlaces/IGEOLocation.m; sourceTree = "<group>"; };
+		88B8B53A1913F9C3006B4F5D /* IGEOQueryParamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOQueryParamsViewController.h; path = IGEOUI/IGEOUIPlaces/IGEOQueryParamsViewController.h; sourceTree = "<group>"; };
+		88B8B53B1913F9C3006B4F5D /* IGEOQueryParamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOQueryParamsViewController.m; path = IGEOUI/IGEOUIPlaces/IGEOQueryParamsViewController.m; sourceTree = "<group>"; };
+		88B8B53C1913F9C3006B4F5D /* IGEOSearchQueryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOSearchQueryBuilder.h; path = IGEOUI/IGEOUIPlaces/IGEOSearchQueryBuilder.h; sourceTree = "<group>"; };
+		88B8B53D1913F9C3006B4F5D /* IGEOSearchQueryBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOSearchQueryBuilder.m; path = IGEOUI/IGEOUIPlaces/IGEOSearchQueryBuilder.m; sourceTree = "<group>"; };
+		88B8B5411913F9D4006B4F5D /* IGEOFromBottomReplacePopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOFromBottomReplacePopSegue.h; path = IGEOUI/IGEOUIViews/IGEOFromBottomReplacePopSegue.h; sourceTree = "<group>"; };
+		88B8B5421913F9D4006B4F5D /* IGEOFromBottomReplacePopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOFromBottomReplacePopSegue.m; path = IGEOUI/IGEOUIViews/IGEOFromBottomReplacePopSegue.m; sourceTree = "<group>"; };
+		88B8B5431913F9D4006B4F5D /* IGEOFromBottomReplaceSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOFromBottomReplaceSegue.h; path = IGEOUI/IGEOUIViews/IGEOFromBottomReplaceSegue.h; sourceTree = "<group>"; };
+		88B8B5441913F9D4006B4F5D /* IGEOFromBottomReplaceSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOFromBottomReplaceSegue.m; path = IGEOUI/IGEOUIViews/IGEOFromBottomReplaceSegue.m; sourceTree = "<group>"; };
+		88B8B5451913F9D4006B4F5D /* IGEOFromTopReplacePopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOFromTopReplacePopSegue.h; path = IGEOUI/IGEOUIViews/IGEOFromTopReplacePopSegue.h; sourceTree = "<group>"; };
+		88B8B5461913F9D4006B4F5D /* IGEOFromTopReplacePopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOFromTopReplacePopSegue.m; path = IGEOUI/IGEOUIViews/IGEOFromTopReplacePopSegue.m; sourceTree = "<group>"; };
+		88B8B5471913F9D4006B4F5D /* IGEOFromTopReplaceSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOFromTopReplaceSegue.h; path = IGEOUI/IGEOUIViews/IGEOFromTopReplaceSegue.h; sourceTree = "<group>"; };
+		88B8B5481913F9D4006B4F5D /* IGEOFromTopReplaceSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOFromTopReplaceSegue.m; path = IGEOUI/IGEOUIViews/IGEOFromTopReplaceSegue.m; sourceTree = "<group>"; };
+		88B8B5491913F9D4006B4F5D /* IGEOMapMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOMapMarker.h; path = IGEOUI/IGEOUIViews/IGEOMapMarker.h; sourceTree = "<group>"; };
+		88B8B54A1913F9D4006B4F5D /* IGEOMapMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOMapMarker.m; path = IGEOUI/IGEOUIViews/IGEOMapMarker.m; sourceTree = "<group>"; };
+		88B8B54B1913F9D4006B4F5D /* IGEOPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOPolygon.h; path = IGEOUI/IGEOUIViews/IGEOPolygon.h; sourceTree = "<group>"; };
+		88B8B54C1913F9D4006B4F5D /* IGEOPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOPolygon.m; path = IGEOUI/IGEOUIViews/IGEOPolygon.m; sourceTree = "<group>"; };
+		88B8B54D1913F9D4006B4F5D /* IGEOPopBackSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOPopBackSegue.h; path = IGEOUI/IGEOUIViews/IGEOPopBackSegue.h; sourceTree = "<group>"; };
+		88B8B54E1913F9D4006B4F5D /* IGEOPopBackSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOPopBackSegue.m; path = IGEOUI/IGEOUIViews/IGEOPopBackSegue.m; sourceTree = "<group>"; };
+		88B8B54F1913F9D4006B4F5D /* IGEOSearchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOSearchButton.h; path = IGEOUI/IGEOUIViews/IGEOSearchButton.h; sourceTree = "<group>"; };
+		88B8B5501913F9D4006B4F5D /* IGEOSearchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOSearchButton.m; path = IGEOUI/IGEOUIViews/IGEOSearchButton.m; sourceTree = "<group>"; };
+		88B8B5591913F9E5006B4F5D /* IGEOCategoryListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOCategoryListCell.h; path = IGEOUI/IGEOUIViews/Cells/IGEOCategoryListCell.h; sourceTree = "<group>"; };
+		88B8B55A1913F9E5006B4F5D /* IGEOCategoryListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOCategoryListCell.m; path = IGEOUI/IGEOUIViews/Cells/IGEOCategoryListCell.m; sourceTree = "<group>"; };
+		88B8B55B1913F9E5006B4F5D /* IGEOCategoryListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IGEOCategoryListCell.xib; path = IGEOUI/IGEOUIViews/Cells/IGEOCategoryListCell.xib; sourceTree = "<group>"; };
+		88B8B55C1913F9E5006B4F5D /* IGEOCategoryMapListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOCategoryMapListCell.h; path = IGEOUI/IGEOUIViews/Cells/IGEOCategoryMapListCell.h; sourceTree = "<group>"; };
+		88B8B55D1913F9E5006B4F5D /* IGEOCategoryMapListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOCategoryMapListCell.m; path = IGEOUI/IGEOUIViews/Cells/IGEOCategoryMapListCell.m; sourceTree = "<group>"; };
+		88B8B55E1913F9E5006B4F5D /* IGEOCategoryMapListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IGEOCategoryMapListCell.xib; path = IGEOUI/IGEOUIViews/Cells/IGEOCategoryMapListCell.xib; sourceTree = "<group>"; };
+		88B8B55F1913F9E5006B4F5D /* IGEODataItemListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODataItemListCell.h; path = IGEOUI/IGEOUIViews/Cells/IGEODataItemListCell.h; sourceTree = "<group>"; };
+		88B8B5601913F9E5006B4F5D /* IGEODataItemListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODataItemListCell.m; path = IGEOUI/IGEOUIViews/Cells/IGEODataItemListCell.m; sourceTree = "<group>"; };
+		88B8B5611913F9E5006B4F5D /* IGEODataItemListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IGEODataItemListCell.xib; path = IGEOUI/IGEOUIViews/Cells/IGEODataItemListCell.xib; sourceTree = "<group>"; };
+		88B8B5621913F9E5006B4F5D /* IGEODataItemTitleListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEODataItemTitleListCell.h; path = IGEOUI/IGEOUIViews/Cells/IGEODataItemTitleListCell.h; sourceTree = "<group>"; };
+		88B8B5631913F9E5006B4F5D /* IGEODataItemTitleListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEODataItemTitleListCell.m; path = IGEOUI/IGEOUIViews/Cells/IGEODataItemTitleListCell.m; sourceTree = "<group>"; };
+		88B8B5641913F9E5006B4F5D /* IGEODataItemTitleListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IGEODataItemTitleListCell.xib; path = IGEOUI/IGEOUIViews/Cells/IGEODataItemTitleListCell.xib; sourceTree = "<group>"; };
+		88B8B5651913F9E5006B4F5D /* IGEOPlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOPlaceCell.h; path = IGEOUI/IGEOUIViews/Cells/IGEOPlaceCell.h; sourceTree = "<group>"; };
+		88B8B5661913F9E5006B4F5D /* IGEOPlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOPlaceCell.m; path = IGEOUI/IGEOUIViews/Cells/IGEOPlaceCell.m; sourceTree = "<group>"; };
+		88B8B5671913F9E5006B4F5D /* IGEOPlaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IGEOPlaceCell.xib; path = IGEOUI/IGEOUIViews/Cells/IGEOPlaceCell.xib; sourceTree = "<group>"; };
+		88B8B5681913F9E5006B4F5D /* IGEOSourceListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOSourceListCell.h; path = IGEOUI/IGEOUIViews/Cells/IGEOSourceListCell.h; sourceTree = "<group>"; };
+		88B8B5691913F9E5006B4F5D /* IGEOSourceListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOSourceListCell.m; path = IGEOUI/IGEOUIViews/Cells/IGEOSourceListCell.m; sourceTree = "<group>"; };
+		88B8B56A1913F9E5006B4F5D /* IGEOSourceListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IGEOSourceListCell.xib; path = IGEOUI/IGEOUIViews/Cells/IGEOSourceListCell.xib; sourceTree = "<group>"; };
+		88B8B5771913FA31006B4F5D /* IGEOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGEOAppDelegate.h; path = IGEOUI/IGEOAppDelegate.h; sourceTree = "<group>"; };
+		88B8B5781913FA31006B4F5D /* IGEOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGEOAppDelegate.m; path = IGEOUI/IGEOAppDelegate.m; sourceTree = "<group>"; };
+		88B8B5791913FA31006B4F5D /* IGEOStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IGEOStoryboard.storyboard; path = IGEOUI/IGEOStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B8B35D1913F154006B4F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88924AE81917EE5000F6FAED /* AVFoundation.framework in Frameworks */,
+				883ECD041916909700B3E1CB /* Social.framework in Frameworks */,
+				88894A391913FDEF00C994FD /* libsqlite3.0.dylib in Frameworks */,
+				88B8B3661913F154006B4F5D /* CoreGraphics.framework in Frameworks */,
+				88B8B36A1913F154006B4F5D /* CoreData.framework in Frameworks */,
+				88B8B3681913F154006B4F5D /* UIKit.framework in Frameworks */,
+				88B8B3641913F154006B4F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B8B37D1913F154006B4F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B8B3821913F154006B4F5D /* XCTest.framework in Frameworks */,
+				88B8B3851913F154006B4F5D /* CoreData.framework in Frameworks */,
+				88B8B3841913F154006B4F5D /* UIKit.framework in Frameworks */,
+				88B8B3831913F154006B4F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88894A88191402F400C994FD /* IGEOStyles */ = {
+			isa = PBXGroup;
+			children = (
+				88894A891914031400C994FD /* style.css */,
+			);
+			name = IGEOStyles;
+			sourceTree = "<group>";
+		};
+		88B8B3571913F154006B4F5D = {
+			isa = PBXGroup;
+			children = (
+				888949D61913FBB700C994FD /* Settings.bundle */,
+				88B8B36B1913F154006B4F5D /* IGEOApp */,
+				88B8B39A1913F262006B4F5D /* IGEOFonts */,
+				88B8B39B1913F274006B4F5D /* IGEODataBases */,
+				88B8B3981913F21D006B4F5D /* IGEOStyles */,
+				88B8B3881913F154006B4F5D /* IGEOAppTests */,
+				88B8B3991913F230006B4F5D /* IGEOImages */,
+				88894A88191402F400C994FD /* IGEOStyles */,
+				88B8B3621913F154006B4F5D /* Frameworks */,
+				88B8B3611913F154006B4F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88B8B3611913F154006B4F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B3601913F154006B4F5D /* IGEOApp-Ordenamento.app */,
+				88B8B3801913F154006B4F5D /* IGEOAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B8B3621913F154006B4F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88924AE71917EE5000F6FAED /* AVFoundation.framework */,
+				883ECD031916909700B3E1CB /* Social.framework */,
+				88894A381913FDEF00C994FD /* libsqlite3.0.dylib */,
+				88B8B3631913F154006B4F5D /* Foundation.framework */,
+				88B8B3651913F154006B4F5D /* CoreGraphics.framework */,
+				88B8B3671913F154006B4F5D /* UIKit.framework */,
+				88B8B3691913F154006B4F5D /* CoreData.framework */,
+				88B8B3811913F154006B4F5D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88B8B36B1913F154006B4F5D /* IGEOApp */ = {
+			isa = PBXGroup;
+			children = (
+				888949DA1913FC4500C994FD /* Images.xcassets */,
+				88B8B39C1913F299006B4F5D /* IGEOCore */,
+				88B8B39D1913F2C6006B4F5D /* IGEOUI */,
+				88B8B3771913F154006B4F5D /* IGEOApp.xcdatamodeld */,
+				88B8B36C1913F154006B4F5D /* Supporting Files */,
+			);
+			path = IGEOApp;
+			sourceTree = "<group>";
+		};
+		88B8B36C1913F154006B4F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888949D81913FBDC00C994FD /* IGEOApp-Info.plist */,
+				883ECD0A1916A57900B3E1CB /* IGEOStrings.strings */,
+				88B8B3711913F154006B4F5D /* main.m */,
+				88B8B3731913F154006B4F5D /* IGEOApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88B8B3881913F154006B4F5D /* IGEOAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B38E1913F154006B4F5D /* IGEOAppTests.m */,
+				88B8B3891913F154006B4F5D /* Supporting Files */,
+			);
+			path = IGEOAppTests;
+			sourceTree = "<group>";
+		};
+		88B8B3891913F154006B4F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B38A1913F154006B4F5D /* IGEOAppTests-Info.plist */,
+				88B8B38B1913F154006B4F5D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88B8B3981913F21D006B4F5D /* IGEOStyles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IGEOStyles;
+			sourceTree = "<group>";
+		};
+		88B8B3991913F230006B4F5D /* IGEOImages */ = {
+			isa = PBXGroup;
+			children = (
+				88894A91191407A500C994FD /* share_click@2x.png */,
+				88894A92191407A500C994FD /* share@2x.png */,
+				88894A301913FD2200C994FD /* ord_img_default_ordenamento.jpg */,
+				88894A311913FD2200C994FD /* pat_img_default_patrimonio.jpg */,
+				23A37177191B26DD006FDA70 /* mapa_click@2x.png */,
+				23A37178191B26DD006FDA70 /* mapa@2x.png */,
+				23A37179191B26DD006FDA70 /* pesquisa@2x.png */,
+				88B8B4341913F879006B4F5D /* nat_img_default_natureza.jpg */,
+				888949DC1913FCB300C994FD /* back_new_click@2x.png */,
+				888949DD1913FCB300C994FD /* back_click@2x.png */,
+				888949DE1913FCB300C994FD /* back_new@2x.png */,
+				888949DF1913FCB400C994FD /* back@2x.png */,
+				888949E01913FCB400C994FD /* fechar_menu_click@2x.png */,
+				888949E21913FCB400C994FD /* fechar_menu_mapa_click@2x.png */,
+				888949E41913FCB400C994FD /* fechar_menu_mapa@2x.png */,
+				888949E51913FCB400C994FD /* fechar_menu@2x.png */,
+				888949ED1913FCB400C994FD /* home@2x.png */,
+				888949E81913FCB400C994FD /* home_click@2x.png */,
+				888949EA1913FCB400C994FD /* home_new@2x.png */,
+				888949EB1913FCB400C994FD /* home_new_click@2x.png */,
+				888949F11913FCB400C994FD /* info_click@2x.png */,
+				888949F31913FCB400C994FD /* info@2x.png */,
+				888949F41913FCB400C994FD /* lista_click@2x.png */,
+				888949F51913FCB400C994FD /* lista@2x.png */,
+				888949F61913FCB400C994FD /* logo_home.png */,
+				888949F71913FCB400C994FD /* logo_lista.png */,
+				888949FB1913FCB400C994FD /* menu_click@2x.png */,
+				888949FE1913FCB400C994FD /* menu@2x.png */,
+				88894A021913FCB400C994FD /* pesquisa_click@2x.png */,
+				88894A031913FCB400C994FD /* shadow.png */,
+				88B8B3A91913F466006B4F5D /* Splashscreens */,
+				88B8B3AA1913F46C006B4F5D /* LanchIcons */,
+				88B8B3AC1913F49B006B4F5D /* IGEONaturezaImages */,
+				88B8B3AB1913F48D006B4F5D /* IGEOPatrimonioImages */,
+				88B8B3AD1913F4A3006B4F5D /* IGEOOrdenamentoImages */,
+				88B8B3AE1913F4C6006B4F5D /* PinsMapa */,
+			);
+			name = IGEOImages;
+			sourceTree = "<group>";
+		};
+		88B8B39A1913F262006B4F5D /* IGEOFonts */ = {
+			isa = PBXGroup;
+			children = (
+				88894A621914018200C994FD /* MYRIADAB.TTF */,
+				88894A631914018200C994FD /* MYRIADAT.TTF */,
+				88894A641914018200C994FD /* Roboto-Black.ttf */,
+				88894A651914018200C994FD /* Roboto-BlackItalic.ttf */,
+				88894A661914018200C994FD /* Roboto-Bold.ttf */,
+				88894A671914018200C994FD /* Roboto-BoldCondensed.ttf */,
+				88894A681914018200C994FD /* Roboto-BoldCondensedItalic.ttf */,
+				88894A691914018200C994FD /* Roboto-BoldItalic.ttf */,
+				88894A6A1914018200C994FD /* Roboto-Condensed.ttf */,
+				88894A6B1914018200C994FD /* Roboto-CondensedItalic.ttf */,
+				88894A6C1914018200C994FD /* Roboto-Italic.ttf */,
+				88894A6D1914018200C994FD /* Roboto-Light.ttf */,
+				88894A6E1914018200C994FD /* Roboto-LightItalic.ttf */,
+				88894A6F1914018200C994FD /* Roboto-Medium.ttf */,
+				88894A701914018200C994FD /* Roboto-MediumItalic.ttf */,
+				88894A711914018200C994FD /* Roboto-Regular.ttf */,
+				88894A721914018200C994FD /* Roboto-Thin.ttf */,
+				88894A731914018200C994FD /* Roboto-ThinItalic.ttf */,
+			);
+			name = IGEOFonts;
+			path = IGEOApp;
+			sourceTree = "<group>";
+		};
+		88B8B39B1913F274006B4F5D /* IGEODataBases */ = {
+			isa = PBXGroup;
+			children = (
+				88894A861914019100C994FD /* Regions.sqlite */,
+			);
+			name = IGEODataBases;
+			path = IGEOApp;
+			sourceTree = "<group>";
+		};
+		88B8B39C1913F299006B4F5D /* IGEOCore */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B4E31913F976006B4F5D /* IGEOConfigsManager.h */,
+				88B8B4E41913F976006B4F5D /* IGEOConfigsManager.m */,
+				88B8B4E51913F976006B4F5D /* IGEODataManager.h */,
+				88B8B4E61913F976006B4F5D /* IGEODataManager.m */,
+				88B8B4E71913F976006B4F5D /* IGEOFileUtils.h */,
+				88B8B4E81913F976006B4F5D /* IGEOFileUtils.m */,
+				88B8B4E91913F976006B4F5D /* IGEOJSONServerReader.h */,
+				88B8B4EA1913F976006B4F5D /* IGEOJSONServerReader.m */,
+				88B8B4EB1913F976006B4F5D /* IGEOLocationManager.h */,
+				88B8B4EC1913F976006B4F5D /* IGEOLocationManager.m */,
+				88B8B4ED1913F976006B4F5D /* IGEOLogManager.h */,
+				88B8B4EE1913F976006B4F5D /* IGEOLogManager.m */,
+				88B8B4EF1913F976006B4F5D /* IGEORelatedAppInfo.h */,
+				88B8B4F01913F976006B4F5D /* IGEORelatedAppInfo.m */,
+				88B8B4F11913F976006B4F5D /* IGEOUtils.h */,
+				88B8B4F21913F976006B4F5D /* IGEOUtils.m */,
+				88B8B3A51913F3AC006B4F5D /* IGEOCoreConfigs */,
+				88B8B3A61913F3BA006B4F5D /* IGEOCoreDataSource */,
+				88B8B3A71913F3CE006B4F5D /* IGEOCoreLogs */,
+			);
+			name = IGEOCore;
+			sourceTree = "<group>";
+		};
+		88B8B39D1913F2C6006B4F5D /* IGEOUI */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B5771913FA31006B4F5D /* IGEOAppDelegate.h */,
+				88B8B5781913FA31006B4F5D /* IGEOAppDelegate.m */,
+				88B8B5791913FA31006B4F5D /* IGEOStoryboard.storyboard */,
+				88B8B39E1913F2FE006B4F5D /* IGEOThreads */,
+				88B8B39F1913F307006B4F5D /* SDwebImage */,
+				88B8B3A01913F324006B4F5D /* IGEOUIViewControllers */,
+				88B8B3A11913F33B006B4F5D /* IGEOUIPlaces */,
+				88B8B3A21913F353006B4F5D /* IGEOUIViews */,
+			);
+			name = IGEOUI;
+			sourceTree = "<group>";
+		};
+		88B8B39E1913F2FE006B4F5D /* IGEOThreads */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B4FB1913F98D006B4F5D /* IGEOConfigDownloadItem.h */,
+				88B8B4FC1913F98D006B4F5D /* IGEOConfigDownloadItem.m */,
+				88B8B4FD1913F98D006B4F5D /* IGEODownloadsConfigsThread.h */,
+				88B8B4FE1913F98D006B4F5D /* IGEODownloadsConfigsThread.m */,
+			);
+			name = IGEOThreads;
+			sourceTree = "<group>";
+		};
+		88B8B39F1913F307006B4F5D /* SDwebImage */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B5011913F9A2006B4F5D /* MKAnnotationView+WebCache.h */,
+				88B8B5021913F9A2006B4F5D /* MKAnnotationView+WebCache.m */,
+				88B8B5031913F9A2006B4F5D /* SDImageCache.h */,
+				88B8B5041913F9A2006B4F5D /* SDImageCache.m */,
+				88B8B5051913F9A2006B4F5D /* SDImageCacheDelegate.h */,
+				88B8B5061913F9A2006B4F5D /* SDWebImageCompat.h */,
+				88B8B5071913F9A2006B4F5D /* SDWebImageDecoder.h */,
+				88B8B5081913F9A2006B4F5D /* SDWebImageDecoder.m */,
+				88B8B5091913F9A2006B4F5D /* SDWebImageDownloader.h */,
+				88B8B50A1913F9A2006B4F5D /* SDWebImageDownloader.m */,
+				88B8B50B1913F9A2006B4F5D /* SDWebImageDownloaderDelegate.h */,
+				88B8B50C1913F9A2006B4F5D /* SDWebImageManager.h */,
+				88B8B50D1913F9A2006B4F5D /* SDWebImageManager.m */,
+				88B8B50E1913F9A2006B4F5D /* SDWebImageManagerDelegate.h */,
+				88B8B50F1913F9A2006B4F5D /* SDWebImagePrefetcher.h */,
+				88B8B5101913F9A2006B4F5D /* SDWebImagePrefetcher.m */,
+				88B8B5111913F9A2006B4F5D /* UIButton+WebCache.h */,
+				88B8B5121913F9A2006B4F5D /* UIButton+WebCache.m */,
+				88B8B5131913F9A2006B4F5D /* UIImageView+WebCache.h */,
+				88B8B5141913F9A2006B4F5D /* UIImageView+WebCache.m */,
+			);
+			name = SDwebImage;
+			sourceTree = "<group>";
+		};
+		88B8B3A01913F324006B4F5D /* IGEOUIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B51D1913F9B5006B4F5D /* IGEOConfigurableViewController.h */,
+				88B8B51E1913F9B5006B4F5D /* IGEOConfigurableViewController.m */,
+				88B8B51F1913F9B5006B4F5D /* IGEODetailsViewController.h */,
+				88B8B5201913F9B5006B4F5D /* IGEODetailsViewController.m */,
+				88B8B5231913F9B5006B4F5D /* IGEOInfoViewController.h */,
+				88B8B5241913F9B5006B4F5D /* IGEOInfoViewController.m */,
+				88B8B5251913F9B5006B4F5D /* IGEOListViewController.h */,
+				88B8B5261913F9B5006B4F5D /* IGEOListViewController.m */,
+				88B8B5271913F9B5006B4F5D /* IGEOMainViewController.h */,
+				88B8B5281913F9B5006B4F5D /* IGEOMainViewController.m */,
+				88B8B5291913F9B5006B4F5D /* IGEOMapViewController.h */,
+				88B8B52A1913F9B5006B4F5D /* IGEOMapViewController.m */,
+				88B8B52B1913F9B5006B4F5D /* IGEOOptionsViewController.h */,
+				88B8B52C1913F9B5006B4F5D /* IGEOOptionsViewController.m */,
+			);
+			name = IGEOUIViewControllers;
+			sourceTree = "<group>";
+		};
+		88B8B3A11913F33B006B4F5D /* IGEOUIPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B5381913F9C3006B4F5D /* IGEOLocation.h */,
+				88B8B5391913F9C3006B4F5D /* IGEOLocation.m */,
+				88B8B53A1913F9C3006B4F5D /* IGEOQueryParamsViewController.h */,
+				88B8B53B1913F9C3006B4F5D /* IGEOQueryParamsViewController.m */,
+				88B8B53C1913F9C3006B4F5D /* IGEOSearchQueryBuilder.h */,
+				88B8B53D1913F9C3006B4F5D /* IGEOSearchQueryBuilder.m */,
+			);
+			name = IGEOUIPlaces;
+			sourceTree = "<group>";
+		};
+		88B8B3A21913F353006B4F5D /* IGEOUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B5491913F9D4006B4F5D /* IGEOMapMarker.h */,
+				88B8B54A1913F9D4006B4F5D /* IGEOMapMarker.m */,
+				88B8B54B1913F9D4006B4F5D /* IGEOPolygon.h */,
+				88B8B54C1913F9D4006B4F5D /* IGEOPolygon.m */,
+				88B8B54F1913F9D4006B4F5D /* IGEOSearchButton.h */,
+				88B8B5501913F9D4006B4F5D /* IGEOSearchButton.m */,
+				88B8B3A31913F37F006B4F5D /* Cells */,
+				88B8B3A41913F386006B4F5D /* Segues */,
+			);
+			name = IGEOUIViews;
+			sourceTree = "<group>";
+		};
+		88B8B3A31913F37F006B4F5D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B5591913F9E5006B4F5D /* IGEOCategoryListCell.h */,
+				88B8B55A1913F9E5006B4F5D /* IGEOCategoryListCell.m */,
+				88B8B55B1913F9E5006B4F5D /* IGEOCategoryListCell.xib */,
+				88B8B55C1913F9E5006B4F5D /* IGEOCategoryMapListCell.h */,
+				88B8B55D1913F9E5006B4F5D /* IGEOCategoryMapListCell.m */,
+				88B8B55E1913F9E5006B4F5D /* IGEOCategoryMapListCell.xib */,
+				88B8B55F1913F9E5006B4F5D /* IGEODataItemListCell.h */,
+				88B8B5601913F9E5006B4F5D /* IGEODataItemListCell.m */,
+				88B8B5611913F9E5006B4F5D /* IGEODataItemListCell.xib */,
+				88B8B5621913F9E5006B4F5D /* IGEODataItemTitleListCell.h */,
+				88B8B5631913F9E5006B4F5D /* IGEODataItemTitleListCell.m */,
+				88B8B5641913F9E5006B4F5D /* IGEODataItemTitleListCell.xib */,
+				88B8B5651913F9E5006B4F5D /* IGEOPlaceCell.h */,
+				88B8B5661913F9E5006B4F5D /* IGEOPlaceCell.m */,
+				88B8B5671913F9E5006B4F5D /* IGEOPlaceCell.xib */,
+				88B8B5681913F9E5006B4F5D /* IGEOSourceListCell.h */,
+				88B8B5691913F9E5006B4F5D /* IGEOSourceListCell.m */,
+				88B8B56A1913F9E5006B4F5D /* IGEOSourceListCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		88B8B3A41913F386006B4F5D /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B54D1913F9D4006B4F5D /* IGEOPopBackSegue.h */,
+				88B8B54E1913F9D4006B4F5D /* IGEOPopBackSegue.m */,
+				88B8B5411913F9D4006B4F5D /* IGEOFromBottomReplacePopSegue.h */,
+				88B8B5421913F9D4006B4F5D /* IGEOFromBottomReplacePopSegue.m */,
+				88B8B5431913F9D4006B4F5D /* IGEOFromBottomReplaceSegue.h */,
+				88B8B5441913F9D4006B4F5D /* IGEOFromBottomReplaceSegue.m */,
+				88B8B5451913F9D4006B4F5D /* IGEOFromTopReplacePopSegue.h */,
+				88B8B5461913F9D4006B4F5D /* IGEOFromTopReplacePopSegue.m */,
+				88B8B5471913F9D4006B4F5D /* IGEOFromTopReplaceSegue.h */,
+				88B8B5481913F9D4006B4F5D /* IGEOFromTopReplaceSegue.m */,
+				883ECD05191699E000B3E1CB /* IGEOGenericSegue.h */,
+				883ECD06191699E000B3E1CB /* IGEOGenericSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+		88B8B3A51913F3AC006B4F5D /* IGEOCoreConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B4AA1913F920006B4F5D /* IGEOAppConfigs.h */,
+				88B8B4AB1913F920006B4F5D /* IGEOAppConfigs.m */,
+				88B8B4AC1913F920006B4F5D /* IGEOButtonElement.h */,
+				88B8B4AD1913F920006B4F5D /* IGEOButtonElement.m */,
+				88B8B4AE1913F920006B4F5D /* IGEODetailsScreenConfigs.h */,
+				88B8B4AF1913F920006B4F5D /* IGEODetailsScreenConfigs.m */,
+				88B8B4B01913F920006B4F5D /* IGEOGlobalConfigsItem.h */,
+				88B8B4B11913F920006B4F5D /* IGEOGlobalConfigsItem.m */,
+				88B8B4B21913F920006B4F5D /* IGEOHomeScreenConfigs.h */,
+				88B8B4B31913F920006B4F5D /* IGEOHomeScreenConfigs.m */,
+				88B8B4B41913F920006B4F5D /* IGEOInfoScreenConfig.h */,
+				88B8B4B51913F920006B4F5D /* IGEOInfoScreenConfig.m */,
+				88B8B4B61913F920006B4F5D /* IGEOListScreenConfig.h */,
+				88B8B4B71913F920006B4F5D /* IGEOListScreenConfig.m */,
+				88B8B4B81913F920006B4F5D /* IGEOListSourcesScreenConfig.h */,
+				88B8B4B91913F920006B4F5D /* IGEOListSourcesScreenConfig.m */,
+				88B8B4BA1913F920006B4F5D /* IGEONativeMapScreenConfig.h */,
+				88B8B4BB1913F920006B4F5D /* IGEONativeMapScreenConfig.m */,
+				88B8B4BC1913F920006B4F5D /* IGEOOptionsScreenConfig.h */,
+				88B8B4BD1913F920006B4F5D /* IGEOOptionsScreenConfig.m */,
+				88B8B4BE1913F920006B4F5D /* IGEOScreenConfig.h */,
+				88B8B4BF1913F920006B4F5D /* IGEOScreenConfig.m */,
+				88B8B4C01913F920006B4F5D /* IGEOScreenElement.h */,
+				88B8B4C11913F920006B4F5D /* IGEOScreenElement.m */,
+				88B8B4C21913F920006B4F5D /* IGEOSelectLocationScreenConfigs.h */,
+				88B8B4C31913F920006B4F5D /* IGEOSelectLocationScreenConfigs.m */,
+				88B8B3A81913F3F6006B4F5D /* InitialConfigs */,
+			);
+			name = IGEOCoreConfigs;
+			sourceTree = "<group>";
+		};
+		88B8B3A61913F3BA006B4F5D /* IGEOCoreDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B4D11913F94F006B4F5D /* IGEOCategory.h */,
+				88B8B4D21913F94F006B4F5D /* IGEOCategory.m */,
+				88B8B4D31913F94F006B4F5D /* IGEODataItem.h */,
+				88B8B4D41913F94F006B4F5D /* IGEODataItem.m */,
+				88B8B4D51913F94F006B4F5D /* IGEODataItemsCache.h */,
+				88B8B4D61913F94F006B4F5D /* IGEODataItemsCache.m */,
+				88B8B4D71913F94F006B4F5D /* IGEOGenericDataItem.h */,
+				88B8B4D81913F94F006B4F5D /* IGEOGenericDataItem.m */,
+				88B8B4D91913F94F006B4F5D /* IGEOSource.h */,
+				88B8B4DA1913F94F006B4F5D /* IGEOSource.m */,
+			);
+			name = IGEOCoreDataSource;
+			sourceTree = "<group>";
+		};
+		88B8B3A71913F3CE006B4F5D /* IGEOCoreLogs */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B4E01913F95C006B4F5D /* IGEOLogger.h */,
+				88B8B4E11913F95C006B4F5D /* IGEOLogger.m */,
+			);
+			name = IGEOCoreLogs;
+			sourceTree = "<group>";
+		};
+		88B8B3A81913F3F6006B4F5D /* InitialConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B4A71913F90A006B4F5D /* IGEOInitialConfigs.h */,
+				88B8B4A81913F90A006B4F5D /* IGEOInitialConfigs.m */,
+			);
+			name = InitialConfigs;
+			sourceTree = "<group>";
+		};
+		88B8B3A91913F466006B4F5D /* Splashscreens */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B47B1913F8CE006B4F5D /* splash_iPhone_4.png */,
+				88B8B47C1913F8CE006B4F5D /* splash_iPhone_5.png */,
+			);
+			name = Splashscreens;
+			sourceTree = "<group>";
+		};
+		88B8B3AA1913F46C006B4F5D /* LanchIcons */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B4561913F8AB006B4F5D /* ordenamento_29@2x.png */,
+				883ECCE819168CA000B3E1CB /* ordenamento_40@2x.png */,
+				88B8B45B1913F8AB006B4F5D /* ordenamento_60@2x.png */,
+				88B8B44F1913F8AB006B4F5D /* natureza_29@2x.png */,
+				88B8B4501913F8AB006B4F5D /* natureza_40@2x.png */,
+				88B8B4521913F8AB006B4F5D /* natureza_60@2x.png */,
+				88B8B45F1913F8AB006B4F5D /* patrimonio_29@2x.png */,
+				88B8B4601913F8AB006B4F5D /* patrimonio_40@2x.png */,
+				88B8B4621913F8AB006B4F5D /* patrimonio_60@2x.png */,
+			);
+			name = LanchIcons;
+			sourceTree = "<group>";
+		};
+		88B8B3AB1913F48D006B4F5D /* IGEOPatrimonioImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IGEOPatrimonioImages;
+			sourceTree = "<group>";
+		};
+		88B8B3AC1913F49B006B4F5D /* IGEONaturezaImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IGEONaturezaImages;
+			sourceTree = "<group>";
+		};
+		88B8B3AD1913F4A3006B4F5D /* IGEOOrdenamentoImages */ = {
+			isa = PBXGroup;
+			children = (
+				231A26B0191B1E6900DACEB1 /* ord_bg_cus_right.jpg */,
+				231A26B1191B1E6900DACEB1 /* ord_bg_cus.jpg */,
+				231A26B2191B1E6900DACEB1 /* ord_cat_default_selected.png */,
+				231A26B3191B1E6900DACEB1 /* ord_cat_default.png */,
+				231A26B4191B1E6900DACEB1 /* ord_explore_click.png */,
+				231A26B5191B1E6900DACEB1 /* ord_explore.png */,
+				231A26B6191B1E6900DACEB1 /* ord_header_ordenamento.png */,
+				231A26B7191B1E6900DACEB1 /* ord_perto_de_mim_click.png */,
+				231A26B8191B1E6900DACEB1 /* ord_perto_de_mim.png */,
+				231A26B9191B1E6900DACEB1 /* ord_portugal_click.png */,
+				231A26BA191B1E6900DACEB1 /* ord_portugal.png */,
+				231A26BB191B1E6900DACEB1 /* ord_bg_crus_right.jpg */,
+				231A26BC191B1E6900DACEB1 /* ord_bg_home_right.jpg */,
+				231A26BD191B1E6900DACEB1 /* ord_bg_home.jpg */,
+				231A26BE191B1E6900DACEB1 /* ord_bg_crus.jpg */,
+			);
+			name = IGEOOrdenamentoImages;
+			sourceTree = "<group>";
+		};
+		88B8B3AE1913F4C6006B4F5D /* PinsMapa */ = {
+			isa = PBXGroup;
+			children = (
+				88B8B3AF1913F826006B4F5D /* azure.png */,
+				88B8B3B01913F826006B4F5D /* blue.png */,
+				88B8B3B11913F826006B4F5D /* cyan.png */,
+				88B8B3B21913F826006B4F5D /* green.png */,
+				88B8B3B31913F826006B4F5D /* magenta.png */,
+				88B8B3B41913F826006B4F5D /* orange.png */,
+				88B8B3B51913F826006B4F5D /* red.png */,
+				88B8B3B61913F826006B4F5D /* rose.png */,
+				88B8B3B71913F826006B4F5D /* violet.png */,
+				88B8B3B81913F826006B4F5D /* yellow.png */,
+			);
+			name = PinsMapa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B8B35F1913F154006B4F5D /* IGEOApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B8B3921913F154006B4F5D /* Build configuration list for PBXNativeTarget "IGEOApp" */;
+			buildPhases = (
+				88B8B35C1913F154006B4F5D /* Sources */,
+				88B8B35D1913F154006B4F5D /* Frameworks */,
+				88B8B35E1913F154006B4F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGEOApp;
+			productName = IGEOApp;
+			productReference = 88B8B3601913F154006B4F5D /* IGEOApp-Ordenamento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88B8B37F1913F154006B4F5D /* IGEOAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B8B3951913F154006B4F5D /* Build configuration list for PBXNativeTarget "IGEOAppTests" */;
+			buildPhases = (
+				88B8B37C1913F154006B4F5D /* Sources */,
+				88B8B37D1913F154006B4F5D /* Frameworks */,
+				88B8B37E1913F154006B4F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B8B3871913F154006B4F5D /* PBXTargetDependency */,
+			);
+			name = IGEOAppTests;
+			productName = IGEOAppTests;
+			productReference = 88B8B3801913F154006B4F5D /* IGEOAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B8B3581913F154006B4F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IGEO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Bitcliq;
+				TargetAttributes = {
+					88B8B35F1913F154006B4F5D = {
+						DevelopmentTeam = 28U8H5655H;
+					};
+					88B8B37F1913F154006B4F5D = {
+						TestTargetID = 88B8B35F1913F154006B4F5D;
+					};
+				};
+			};
+			buildConfigurationList = 88B8B35B1913F154006B4F5D /* Build configuration list for PBXProject "IGEOApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88B8B3571913F154006B4F5D;
+			productRefGroup = 88B8B3611913F154006B4F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B8B35F1913F154006B4F5D /* IGEOApp */,
+				88B8B37F1913F154006B4F5D /* IGEOAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B8B35E1913F154006B4F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B8B47D1913F8CE006B4F5D /* splash_iPhone_4.png in Resources */,
+				88B8B5701913F9E5006B4F5D /* IGEODataItemListCell.xib in Resources */,
+				231A26CD191B1E6900DACEB1 /* ord_bg_crus.jpg in Resources */,
+				231A26C6191B1E6900DACEB1 /* ord_perto_de_mim_click.png in Resources */,
+				231A26CC191B1E6900DACEB1 /* ord_bg_home.jpg in Resources */,
+				883ECD0B1916A57900B3E1CB /* IGEOStrings.strings in Resources */,
+				88894A811914018200C994FD /* Roboto-Medium.ttf in Resources */,
+				88B8B5761913F9E5006B4F5D /* IGEOSourceListCell.xib in Resources */,
+				88894A841914018200C994FD /* Roboto-Thin.ttf in Resources */,
+				88B8B4711913F8AB006B4F5D /* ordenamento_60@2x.png in Resources */,
+				88B8B57B1913FA32006B4F5D /* IGEOStoryboard.storyboard in Resources */,
+				88B8B4661913F8AB006B4F5D /* natureza_40@2x.png in Resources */,
+				23A3717B191B26DD006FDA70 /* mapa@2x.png in Resources */,
+				88894A94191407A500C994FD /* share@2x.png in Resources */,
+				88894A211913FCB400C994FD /* logo_lista.png in Resources */,
+				88894A2D1913FCB400C994FD /* shadow.png in Resources */,
+				88894A1F1913FCB400C994FD /* lista@2x.png in Resources */,
+				88894A831914018200C994FD /* Roboto-Regular.ttf in Resources */,
+				88894A8A1914031400C994FD /* style.css in Resources */,
+				88B8B4781913F8AB006B4F5D /* patrimonio_60@2x.png in Resources */,
+				88894A151913FCB400C994FD /* home_new_click@2x.png in Resources */,
+				888949DB1913FC4500C994FD /* Images.xcassets in Resources */,
+				88894A121913FCB400C994FD /* home_click@2x.png in Resources */,
+				88894A2C1913FCB400C994FD /* pesquisa_click@2x.png in Resources */,
+				88894A7F1914018200C994FD /* Roboto-Light.ttf in Resources */,
+				231A26C1191B1E6900DACEB1 /* ord_cat_default_selected.png in Resources */,
+				88894A851914018200C994FD /* Roboto-ThinItalic.ttf in Resources */,
+				23A3717C191B26DD006FDA70 /* pesquisa@2x.png in Resources */,
+				883ECCF919168CA000B3E1CB /* ordenamento_40@2x.png in Resources */,
+				88894A871914019100C994FD /* Regions.sqlite in Resources */,
+				231A26C7191B1E6900DACEB1 /* ord_perto_de_mim.png in Resources */,
+				88894A7E1914018200C994FD /* Roboto-Italic.ttf in Resources */,
+				231A26C8191B1E6900DACEB1 /* ord_portugal_click.png in Resources */,
+				88B8B3BD1913F826006B4F5D /* magenta.png in Resources */,
+				88B8B56E1913F9E5006B4F5D /* IGEOCategoryMapListCell.xib in Resources */,
+				88B8B46C1913F8AB006B4F5D /* ordenamento_29@2x.png in Resources */,
+				88B8B3C21913F826006B4F5D /* yellow.png in Resources */,
+				88894A321913FD2200C994FD /* ord_img_default_ordenamento.jpg in Resources */,
+				88894A741914018200C994FD /* MYRIADAB.TTF in Resources */,
+				231A26CA191B1E6900DACEB1 /* ord_bg_crus_right.jpg in Resources */,
+				88B8B56C1913F9E5006B4F5D /* IGEOCategoryListCell.xib in Resources */,
+				23A3717A191B26DD006FDA70 /* mapa_click@2x.png in Resources */,
+				231A26C4191B1E6900DACEB1 /* ord_explore.png in Resources */,
+				88B8B4681913F8AB006B4F5D /* natureza_60@2x.png in Resources */,
+				88894A0C1913FCB400C994FD /* fechar_menu_mapa_click@2x.png in Resources */,
+				88894A791914018200C994FD /* Roboto-BoldCondensed.ttf in Resources */,
+				88894A1B1913FCB400C994FD /* info_click@2x.png in Resources */,
+				88B8B5721913F9E5006B4F5D /* IGEODataItemTitleListCell.xib in Resources */,
+				88894A801914018200C994FD /* Roboto-LightItalic.ttf in Resources */,
+				88B8B5741913F9E5006B4F5D /* IGEOPlaceCell.xib in Resources */,
+				88894A081913FCB400C994FD /* back_new@2x.png in Resources */,
+				88B8B4761913F8AB006B4F5D /* patrimonio_40@2x.png in Resources */,
+				88894A781914018200C994FD /* Roboto-Bold.ttf in Resources */,
+				88894A7C1914018200C994FD /* Roboto-Condensed.ttf in Resources */,
+				88B8B3BE1913F826006B4F5D /* orange.png in Resources */,
+				88894A201913FCB400C994FD /* logo_home.png in Resources */,
+				88B8B3BF1913F826006B4F5D /* red.png in Resources */,
+				88894A771914018200C994FD /* Roboto-BlackItalic.ttf in Resources */,
+				88B8B47E1913F8CE006B4F5D /* splash_iPhone_5.png in Resources */,
+				88B8B3C11913F826006B4F5D /* violet.png in Resources */,
+				88894A761914018200C994FD /* Roboto-Black.ttf in Resources */,
+				88B8B4751913F8AB006B4F5D /* patrimonio_29@2x.png in Resources */,
+				88894A821914018200C994FD /* Roboto-MediumItalic.ttf in Resources */,
+				231A26C3191B1E6900DACEB1 /* ord_explore_click.png in Resources */,
+				88894A091913FCB400C994FD /* back@2x.png in Resources */,
+				88B8B3BB1913F826006B4F5D /* cyan.png in Resources */,
+				231A26C2191B1E6900DACEB1 /* ord_cat_default.png in Resources */,
+				231A26C9191B1E6900DACEB1 /* ord_portugal.png in Resources */,
+				88B8B4651913F8AB006B4F5D /* natureza_29@2x.png in Resources */,
+				231A26C5191B1E6900DACEB1 /* ord_header_ordenamento.png in Resources */,
+				88894A0A1913FCB400C994FD /* fechar_menu_click@2x.png in Resources */,
+				88894A171913FCB400C994FD /* home@2x.png in Resources */,
+				88B8B3B91913F826006B4F5D /* azure.png in Resources */,
+				88894A061913FCB400C994FD /* back_new_click@2x.png in Resources */,
+				88894A7A1914018200C994FD /* Roboto-BoldCondensedItalic.ttf in Resources */,
+				88B8B3C01913F826006B4F5D /* rose.png in Resources */,
+				88894A281913FCB400C994FD /* menu@2x.png in Resources */,
+				88B8B3BC1913F826006B4F5D /* green.png in Resources */,
+				88B8B4491913F879006B4F5D /* nat_img_default_natureza.jpg in Resources */,
+				88894A1D1913FCB400C994FD /* info@2x.png in Resources */,
+				231A26BF191B1E6900DACEB1 /* ord_bg_cus_right.jpg in Resources */,
+				88894A7B1914018200C994FD /* Roboto-BoldItalic.ttf in Resources */,
+				88894A751914018200C994FD /* MYRIADAT.TTF in Resources */,
+				88894A141913FCB400C994FD /* home_new@2x.png in Resources */,
+				88894A0E1913FCB400C994FD /* fechar_menu_mapa@2x.png in Resources */,
+				88894A93191407A500C994FD /* share_click@2x.png in Resources */,
+				88894A071913FCB400C994FD /* back_click@2x.png in Resources */,
+				231A26C0191B1E6900DACEB1 /* ord_bg_cus.jpg in Resources */,
+				88894A1E1913FCB400C994FD /* lista_click@2x.png in Resources */,
+				88894A7D1914018200C994FD /* Roboto-CondensedItalic.ttf in Resources */,
+				88894A331913FD2200C994FD /* pat_img_default_patrimonio.jpg in Resources */,
+				888949D71913FBB700C994FD /* Settings.bundle in Resources */,
+				231A26CB191B1E6900DACEB1 /* ord_bg_home_right.jpg in Resources */,
+				88894A251913FCB400C994FD /* menu_click@2x.png in Resources */,
+				88894A0F1913FCB400C994FD /* fechar_menu@2x.png in Resources */,
+				88B8B3BA1913F826006B4F5D /* blue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B8B37E1913F154006B4F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B8B38D1913F154006B4F5D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B8B35C1913F154006B4F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B8B4D01913F920006B4F5D /* IGEOSelectLocationScreenConfigs.m in Sources */,
+				88B8B5321913F9B5006B4F5D /* IGEOInfoViewController.m in Sources */,
+				88B8B3721913F154006B4F5D /* main.m in Sources */,
+				88B8B51A1913F9A2006B4F5D /* SDWebImagePrefetcher.m in Sources */,
+				88B8B5731913F9E5006B4F5D /* IGEOPlaceCell.m in Sources */,
+				88B8B5551913F9D4006B4F5D /* IGEOMapMarker.m in Sources */,
+				88B8B5341913F9B5006B4F5D /* IGEOMainViewController.m in Sources */,
+				88B8B5511913F9D4006B4F5D /* IGEOFromBottomReplacePopSegue.m in Sources */,
+				88B8B56B1913F9E5006B4F5D /* IGEOCategoryListCell.m in Sources */,
+				88B8B4FA1913F976006B4F5D /* IGEOUtils.m in Sources */,
+				88B8B4CD1913F920006B4F5D /* IGEOOptionsScreenConfig.m in Sources */,
+				88B8B5331913F9B5006B4F5D /* IGEOListViewController.m in Sources */,
+				88B8B4C61913F920006B4F5D /* IGEODetailsScreenConfigs.m in Sources */,
+				88B8B4C81913F920006B4F5D /* IGEOHomeScreenConfigs.m in Sources */,
+				88B8B4C51913F920006B4F5D /* IGEOButtonElement.m in Sources */,
+				88B8B5531913F9D4006B4F5D /* IGEOFromTopReplacePopSegue.m in Sources */,
+				88B8B4C41913F920006B4F5D /* IGEOAppConfigs.m in Sources */,
+				88B8B5571913F9D4006B4F5D /* IGEOPopBackSegue.m in Sources */,
+				88B8B5301913F9B5006B4F5D /* IGEODetailsViewController.m in Sources */,
+				88B8B5521913F9D4006B4F5D /* IGEOFromBottomReplaceSegue.m in Sources */,
+				88B8B4F81913F976006B4F5D /* IGEOLogManager.m in Sources */,
+				88B8B57A1913FA32006B4F5D /* IGEOAppDelegate.m in Sources */,
+				88B8B4CA1913F920006B4F5D /* IGEOListScreenConfig.m in Sources */,
+				88B8B4A91913F90A006B4F5D /* IGEOInitialConfigs.m in Sources */,
+				88B8B53F1913F9C3006B4F5D /* IGEOQueryParamsViewController.m in Sources */,
+				883ECD07191699E000B3E1CB /* IGEOGenericSegue.m in Sources */,
+				88B8B5181913F9A2006B4F5D /* SDWebImageDownloader.m in Sources */,
+				88B8B53E1913F9C3006B4F5D /* IGEOLocation.m in Sources */,
+				88B8B4DC1913F94F006B4F5D /* IGEODataItem.m in Sources */,
+				88B8B4C91913F920006B4F5D /* IGEOInfoScreenConfig.m in Sources */,
+				88B8B5191913F9A2006B4F5D /* SDWebImageManager.m in Sources */,
+				88B8B4F71913F976006B4F5D /* IGEOLocationManager.m in Sources */,
+				88B8B4DB1913F94F006B4F5D /* IGEOCategory.m in Sources */,
+				88B8B5171913F9A2006B4F5D /* SDWebImageDecoder.m in Sources */,
+				88B8B4DE1913F94F006B4F5D /* IGEOGenericDataItem.m in Sources */,
+				88B8B4DF1913F94F006B4F5D /* IGEOSource.m in Sources */,
+				88B8B5361913F9B5006B4F5D /* IGEOOptionsViewController.m in Sources */,
+				88B8B4F91913F976006B4F5D /* IGEORelatedAppInfo.m in Sources */,
+				88B8B4F41913F976006B4F5D /* IGEODataManager.m in Sources */,
+				88B8B4FF1913F98D006B4F5D /* IGEOConfigDownloadItem.m in Sources */,
+				88B8B4F61913F976006B4F5D /* IGEOJSONServerReader.m in Sources */,
+				88B8B5561913F9D4006B4F5D /* IGEOPolygon.m in Sources */,
+				88B8B4F31913F976006B4F5D /* IGEOConfigsManager.m in Sources */,
+				88B8B5711913F9E5006B4F5D /* IGEODataItemTitleListCell.m in Sources */,
+				88B8B3791913F154006B4F5D /* IGEOApp.xcdatamodeld in Sources */,
+				88B8B4CC1913F920006B4F5D /* IGEONativeMapScreenConfig.m in Sources */,
+				88B8B51C1913F9A2006B4F5D /* UIImageView+WebCache.m in Sources */,
+				88B8B5351913F9B5006B4F5D /* IGEOMapViewController.m in Sources */,
+				88B8B4DD1913F94F006B4F5D /* IGEODataItemsCache.m in Sources */,
+				88B8B5541913F9D4006B4F5D /* IGEOFromTopReplaceSegue.m in Sources */,
+				88B8B5751913F9E5006B4F5D /* IGEOSourceListCell.m in Sources */,
+				88B8B4CF1913F920006B4F5D /* IGEOScreenElement.m in Sources */,
+				88B8B5001913F98D006B4F5D /* IGEODownloadsConfigsThread.m in Sources */,
+				88B8B4CB1913F920006B4F5D /* IGEOListSourcesScreenConfig.m in Sources */,
+				88B8B4CE1913F920006B4F5D /* IGEOScreenConfig.m in Sources */,
+				88B8B4F51913F976006B4F5D /* IGEOFileUtils.m in Sources */,
+				88B8B56D1913F9E5006B4F5D /* IGEOCategoryMapListCell.m in Sources */,
+				88B8B5401913F9C3006B4F5D /* IGEOSearchQueryBuilder.m in Sources */,
+				88B8B52F1913F9B5006B4F5D /* IGEOConfigurableViewController.m in Sources */,
+				88B8B5151913F9A2006B4F5D /* MKAnnotationView+WebCache.m in Sources */,
+				88B8B56F1913F9E5006B4F5D /* IGEODataItemListCell.m in Sources */,
+				88B8B4E21913F95C006B4F5D /* IGEOLogger.m in Sources */,
+				88B8B5581913F9D4006B4F5D /* IGEOSearchButton.m in Sources */,
+				88B8B51B1913F9A2006B4F5D /* UIButton+WebCache.m in Sources */,
+				88B8B4C71913F920006B4F5D /* IGEOGlobalConfigsItem.m in Sources */,
+				88B8B5161913F9A2006B4F5D /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B8B37C1913F154006B4F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B8B38F1913F154006B4F5D /* IGEOAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88B8B3871913F154006B4F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B8B35F1913F154006B4F5D /* IGEOApp */;
+			targetProxy = 88B8B3861913F154006B4F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88B8B38B1913F154006B4F5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B8B38C1913F154006B4F5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B8B3901913F154006B4F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bitcliq Lda (HVQAN9JGM4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bitcliq Lda (HVQAN9JGM4)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "FBCAF1A1-EA4F-4280-8027-CA45D1DFCEAB";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88B8B3911913F154006B4F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bitcliq Lda (HVQAN9JGM4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bitcliq Lda (28U8H5655H)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "FBCAF1A1-EA4F-4280-8027-CA45D1DFCEAB";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B8B3931913F154006B4F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bitcliq Lda (HVQAN9JGM4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bitcliq Lda (HVQAN9JGM4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGEOApp/IGEOApp-Prefix.pch";
+				INFOPLIST_FILE = "IGEOApp/IGEOApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)-Ordenamento";
+				PROVISIONING_PROFILE = "FBCAF1A1-EA4F-4280-8027-CA45D1DFCEAB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88B8B3941913F154006B4F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bitcliq Lda (HVQAN9JGM4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bitcliq Lda (HVQAN9JGM4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGEOApp/IGEOApp-Prefix.pch";
+				INFOPLIST_FILE = "IGEOApp/IGEOApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)-Ordenamento";
+				PROVISIONING_PROFILE = "FBCAF1A1-EA4F-4280-8027-CA45D1DFCEAB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88B8B3961913F154006B4F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGEOApp-Natureza.app/IGEOApp-Natureza";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGEOApp/IGEOApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IGEOAppTests/IGEOAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88B8B3971913F154006B4F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGEOApp-Natureza.app/IGEOApp-Natureza";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGEOApp/IGEOApp-Prefix.pch";
+				INFOPLIST_FILE = "IGEOAppTests/IGEOAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B8B35B1913F154006B4F5D /* Build configuration list for PBXProject "IGEOApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B8B3901913F154006B4F5D /* Debug */,
+				88B8B3911913F154006B4F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B8B3921913F154006B4F5D /* Build configuration list for PBXNativeTarget "IGEOApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B8B3931913F154006B4F5D /* Debug */,
+				88B8B3941913F154006B4F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B8B3951913F154006B4F5D /* Build configuration list for PBXNativeTarget "IGEOAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B8B3961913F154006B4F5D /* Debug */,
+				88B8B3971913F154006B4F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88B8B3771913F154006B4F5D /* IGEOApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88B8B3781913F154006B4F5D /* IGEOApp.xcdatamodel */,
+			);
+			currentVersion = 88B8B3781913F154006B4F5D /* IGEOApp.xcdatamodel */;
+			path = IGEOApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88B8B3581913F154006B4F5D /* Project object */;
+}

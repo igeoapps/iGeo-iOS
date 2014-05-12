@@ -1,0 +1,120 @@
+/*
+ DGAStrings.strings
+ IGEOApp
+ 
+ Created by Bitcliq, Lda on 04/05/14.
+ Copyright (c) 2014 Bitcliq. All rights reserved.
+ */
+
+"OK_TEXT" = "OK";
+"BACK_TEXT" = "Voltar";
+"SOURCE_TEXT" = "Fonte: %@";
+"CATEGORY_TEXT" = "Categoria: %@";
+
+/*DETAILS*/
+"DETAILS_ERROR_ALERT_TITLE" = "Não foi possível obter o item neste momento. Por favor tente mais tarde.";
+"DETAILS_BASE_HTML" = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"><head><style type=\"text/css\" media=\"all\">@import \"style.css\";</style><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /></head><body>%@</body></html>";
+
+/*INFO*/
+"INFO_DEFAULT_URL" = "http://www.bitcliq.com/igeo/infopage.htm";
+
+/*List*/
+"LIST_RECORDS_NUMBER" = "%lu registos";
+"LIST_NO_RECORDS" = "0 registos";
+"LIST_DONT_EXISTS_ALERT_TITLE" = "Não se encontram items disponíveis para esta localização.";
+"LIST_ERROR_ALERT_TITLE" = "Ocorreu um erro na obtenção dos items. Por favor tente mais tarde.";
+"SEE_MORE" = "Ver mais";
+
+/*HOME*/
+"NO_INTERNET_CONNECTION" = "Não foi encontrada uma ligação ativa à internet. Por favor vá às definições e verifique a sua ligação.";
+"LOCATION_SELECT" = "<Selecione>";
+"SELECT_SOURCE_MESSAGE" = "Por favor selecione uma fonte de dados.";
+"HOME_ERROR_ALERT_TITLE" = "Ocorreu um erro na obtenção dos dados do servidor. Por favor tente mais tarde.";
+"SELECT_DISTRICT_MESSAGE" = "Por favor selecione um distrito.";
+"SELECT_COUNCIL_MESSAGE" = "Por favor selecione um distrito e um concelho.";
+
+/*MAPA*/
+"MAP_DONT_EXISTS_ALERT_TITLE" = "Não se encontram items disponíveis para esta localização.";
+"MAP_ERROR_ALERT_TITLE" = "Ocorreu um erro na obtenção dos items. Por favor tente mais tarde.";
+
+/*OPTIONS*/
+"NO_LOCATION" = "O acesso à localização atual não se encontra disponível, por favor verifique nas definições se este se encontra ativo.";
+"CATEGORIES_SELECT" = "Por favor selecione uma ou mais categorias.";
+"OPTIONS_DONT_EXISTS_ALERT_TITLE" = "Não se encontram categorias disponíveis para esta localização.";
+"OPTIONS_ERROR_ALERT_TITLE" = "Ocorreu um erro na obtenção das categorias para esta localização. Por favor tente mais tarde.";
+
+
+
+
+
+/*CORE*/
+"HOME_KEY" = "home";
+"SOURCES_LIST_KEY" = "sourcesList";
+"FILTER_EXPLORE_KEY" = "filterExplore";
+"INFO_KEY" = "info";
+"OPTIONS_KEY" = "options";
+"MAP_KEY" = "map";
+"LIST_KEY" = "list";
+"DETAILS_KEY" = "details";
+
+/*FONTS*/
+"ROBOTO_LIGHT" = "Roboto-Light";
+"ROBOTO_REGULAR" = "Roboto-Regular";
+"ROBOTO_BOLD" = "Roboto-Bold";
+"ROBOTO_BLACK" = "Roboto-Black";
+"ROBOTO_MEDIUM" = "Roboto-Medium";
+
+
+
+/*URLs*/
+"URL_DOMAIN" = "http://dadosabertos.bitcliq.com";
+"URL_REQUEST" = "/GeoDas.ashx?tid=";
+"URL_SOURCES" = "/GeoDasSources.ashx?t=";
+"URL_CATEGORIES" = "/GeoDasCategories.ashx?t=";
+"URL_DEFAULTS" = "/GeoDasEntity.ashx?t=";
+
+"PAT" = "PAT";
+"NAT" = "NAT";
+"ORD" = "ORD";
+
+"PAT_APP_NAME" = "Património";
+"NAT_APP_NAME" = "Natureza";
+"ORD_APP_NAME" = "Ordenamento";
+
+"PAT_PACKAGE_NAME" = "com.bitcliq.igeo.patrimonio";
+"NAT_PACKAGE_NAME" = "com.bitcliq.igeo.natureza";
+"ORD_PACKAGE_NAME" = "com.bitcliq.igeo.ordenamento";
+
+
+/*Cores e pins*/
+"YELLOW_COLOR" = "FFCC66";
+"BLUE_COLOR" = "0000CC";
+"MAGENTA_COLOR" = "380000";
+"ORANGE_COLOR" = "CC3300";
+"ROSE_COLOR" = "CC0099";
+"VIOLET_COLOR" = "CC00FF";
+"GREEN_COLOR" = "336600";
+"CYAN_COLOR" = "00FFFF";
+"AZURE_COLOR" = "00CCCC";
+"RED_COLOR" = "AA0000";
+
+"YELLOW_PIN" = "yellow.png";
+"BLUE_PIN" = "blue.png";
+"MAGENTA_PIN" = "magenta.png";
+"ORANGE_PIN" = "orange.png";
+"ROSE_PIN" = "rose.png";
+"VIOLET_PIN" = "violet.png";
+"GREEN_PIN" = "green.png";
+"CYAN_PIN" = "cyan.png";
+"AZURE_PIN" = "azure.png";
+"RED_PIN" = "red.png";
+
+/*Loading mensages*/
+
+"LOADING_HOME" = "A obter a lista de fontes. Por favor aguarde.";
+"LOADING_CATEGORIES" = "A carregar as categorias. Por favor aguarde.";
+"LOADING_LIST" = "A carregar os itens na lista. Por favor aguarde.";
+"LOADING_MAP" = "A carregar os itens no mapa. Por favor aguarde.";
+"LOADING_DETAILS" = "A carregar a informação sobre o ponto. Por favor aguarde.";
+
+
